@@ -1,0 +1,21 @@
+{
+  "Name": "Renault Laguna",
+  "Brand": "Renault",
+  "Author": "Antigravity & Abdelkarim",
+  "Type": "Car",
+  "Body Style": "Hatchback / Estate / Coupe",
+  "Country": "France",
+  "Years": {
+    "min": 1994,
+    "max": 2015
+  },
+  "default_model": "laguna_ii",
+  "paints": {
+    "Hologramme Grey": "0.45 0.47 0.50 1.2 0.05 0.2",
+    "Gris Eclipse": "0.18 0.20 0.22 1.2 0.1 0.3",
+    "Bleu Iliade": "0.02 0.15 0.55 1.2 0.2 0.4",
+    "Rouge De Feu": "0.55 0.03 0.05 1.2 0.15 0.3",
+    "Noir Nacre": "0.03 0.03 0.03 1.2 0.05 0.5",
+    "Blanc Glacier": "0.90 0.90 0.90 1.0 0.0 0.1"
+  }
+}

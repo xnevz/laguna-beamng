@@ -1,0 +1,186 @@
+{
+  "laguna_physics": {
+    "information": {
+      "authors": "Antigravity & Abdelkarim",
+      "name": "Renault Laguna II Physics & Collision Skeleton"
+    },
+    "slotType": "laguna_bodystyle_gen2",
+    "nodes": [
+      ["id", "posX", "posY", "posZ"],
+      {"nodeMaterial": "|NM_METAL"},
+      {"frictionCoef": 0.5},
+      {"collision": true},
+      {"selfCollision": true},
+
+      // -- ENGINE NODES --
+      {"nodeWeight": 25.0},
+      {"group": "laguna_engine"},
+      ["e1r", -0.25, 1.20, 0.35],
+      ["e1l",  0.25, 1.20, 0.35],
+      ["e2r", -0.25, 1.55, 0.35],
+      ["e2l",  0.25, 1.55, 0.35],
+      ["e3r", -0.25, 1.20, 0.75],
+      ["e3l",  0.25, 1.20, 0.75],
+      ["e4r", -0.25, 1.55, 0.75],
+      ["e4l",  0.25, 1.55, 0.75],
+
+      // -- RADIATOR NODES --
+      {"nodeWeight": 4.5},
+      {"group": "laguna_radiator"},
+      ["rad1r", -0.35, 1.82, 0.38],
+      ["rad1l",  0.35, 1.82, 0.38],
+      ["rad2r", -0.35, 1.82, 0.72],
+      ["rad2l",  0.35, 1.82, 0.72],
+
+      // -- FRONT BUMPER NODES --
+      {"nodeWeight": 3.0},
+      {"group": "laguna_bumper_F"},
+      ["fb1rr", -0.78, 2.05, 0.35],
+      ["fb1r",  -0.42, 2.22, 0.35],
+      ["fb1",    0.00, 2.26, 0.35],
+      ["fb1l",   0.42, 2.22, 0.35],
+      ["fb1ll",  0.78, 2.05, 0.35],
+      ["fb2rr", -0.76, 2.00, 0.70],
+      ["fb2r",  -0.40, 2.18, 0.70],
+      ["fb2",    0.00, 2.22, 0.70],
+      ["fb2l",   0.40, 2.18, 0.70],
+      ["fb2ll",  0.76, 2.00, 0.70],
+
+      // -- HOOD NODES --
+      {"nodeWeight": 3.5},
+      {"group": "laguna_hood"},
+      ["h1r", -0.68, 1.82, 0.75],
+      ["h1",   0.00, 1.85, 0.77],
+      ["h1l",  0.68, 1.82, 0.75],
+      ["h2r", -0.70, 1.45, 0.81],
+      ["h2",   0.00, 1.47, 0.83],
+      ["h2l",  0.70, 1.45, 0.81],
+      ["h3r", -0.72, 1.05, 0.88],
+      ["h3",   0.00, 1.08, 0.90],
+      ["h3l",  0.72, 1.05, 0.88],
+
+      // -- CHASSIS FLOOR & ROCKERS --
+      {"nodeWeight": 14.0},
+      {"group": "laguna_body"},
+      ["f1r", -0.85,  1.37, 0.30],
+      ["f1l",  0.85,  1.37, 0.30],
+      ["f2r", -0.86,  0.55, 0.30],
+      ["f2l",  0.86,  0.55, 0.30],
+      ["f3r", -0.86, -0.45, 0.30],
+      ["f3l",  0.86, -0.45, 0.30],
+      ["f4r", -0.85, -1.37, 0.30],
+      ["f4l",  0.85, -1.37, 0.30],
+
+      // -- ROOF & PILLARS --
+      {"nodeWeight": 8.0},
+      ["rf1r", -0.58,  0.35, 1.38],
+      ["rf1",   0.00,  0.35, 1.41],
+      ["rf1l",  0.58,  0.35, 1.38],
+      ["rf2r", -0.58, -0.40, 1.40],
+      ["rf2",   0.00, -0.40, 1.43],
+      ["rf2l",  0.58, -0.40, 1.40],
+      ["rf3r", -0.58, -0.95, 1.36],
+      ["rf3",   0.00, -0.95, 1.38],
+      ["rf3l",  0.58, -0.95, 1.36],
+
+      // -- REAR BUMPER & TAILGATE NODES --
+      {"nodeWeight": 3.0},
+      {"group": "laguna_bumper_R"},
+      ["rb1rr", -0.78, -2.10, 0.35],
+      ["rb1r",  -0.42, -2.25, 0.35],
+      ["rb1",    0.00, -2.28, 0.35],
+      ["rb1l",   0.42, -2.25, 0.35],
+      ["rb1ll",  0.78, -2.10, 0.35],
+      ["rb2rr", -0.76, -2.05, 0.72],
+      ["rb2r",  -0.40, -2.20, 0.72],
+      ["rb2",    0.00, -2.24, 0.72],
+      ["rb2l",   0.40, -2.20, 0.72],
+      {"group": ""}
+    ],
+    "beams": [
+      ["id1:", "id2:"],
+      {"beamPrecompression": 1, "beamType": "|NORMAL", "beamLongBound": 1, "beamShortBound": 1},
+      {"beamSpring": 3501000, "beamDamp": 150},
+      {"beamDeform": 45000, "beamStrength": "FLT_MAX"},
+
+      // Engine Mounts & Cradle Beams
+      ["e1r", "e1l"], ["e2r", "e2l"], ["e3r", "e3l"], ["e4r", "e4l"],
+      ["e1r", "e2r"], ["e1l", "e2l"], ["e3r", "e4r"], ["e3l", "e4l"],
+      ["e1r", "e3r"], ["e1l", "e3l"], ["e2r", "e4r"], ["e2l", "e4l"],
+      ["e1r", "f1r"], ["e1l", "f1l"], ["e2r", "f1r"], ["e2l", "f1l"],
+
+      // Radiator Support Beams
+      ["rad1r", "rad1l"], ["rad2r", "rad2l"], ["rad1r", "rad2r"], ["rad1l", "rad2l"],
+      ["rad1r", "f1r"], ["rad1l", "f1l"],
+
+      // Front Bumper Beams (Crash deformation)
+      {"beamSpring": 651000, "beamDamp": 80},
+      {"beamDeform": 12000, "beamStrength": 35000},
+      ["fb1rr", "fb1r"], ["fb1r", "fb1"], ["fb1", "fb1l"], ["fb1l", "fb1ll"],
+      ["fb2rr", "fb2r"], ["fb2r", "fb2"], ["fb2", "fb2l"], ["fb2l", "fb2ll"],
+      ["fb1rr", "fb2rr"], ["fb1r", "fb2r"], ["fb1", "fb2"], ["fb1l", "fb2l"], ["fb1ll", "fb2ll"],
+      ["fb1r", "f1r"], ["fb1l", "f1l"], ["fb2r", "h1r"], ["fb2l", "h1l"],
+
+      // Hood Beams
+      {"beamSpring": 851000, "beamDamp": 90},
+      {"beamDeform": 14000, "beamStrength": 28000},
+      ["h1r", "h1"], ["h1", "h1l"], ["h2r", "h2"], ["h2", "h2l"], ["h3r", "h3"], ["h3", "h3l"],
+      ["h1r", "h2r"], ["h1", "h2"], ["h1l", "h2l"], ["h2r", "h3r"], ["h2", "h3"], ["h2l", "h3l"],
+
+      // Unibody Main Structural Beams
+      {"beamSpring": 4501000, "beamDamp": 200},
+      {"beamDeform": 65000, "beamStrength": "FLT_MAX"},
+      ["f1r", "f2r"], ["f2r", "f3r"], ["f3r", "f4r"],
+      ["f1l", "f2l"], ["f2l", "f3l"], ["f3l", "f4l"],
+      ["f1r", "f1l"], ["f2r", "f2l"], ["f3r", "f3l"], ["f4r", "f4l"],
+      ["f1r", "f2l"], ["f1l", "f2r"], ["f2r", "f3l"], ["f2l", "f3r"], ["f3r", "f4l"], ["f3l", "f4r"],
+
+      // Roof Beams & Safety Cage
+      ["rf1r", "rf1"], ["rf1", "rf1l"], ["rf2r", "rf2"], ["rf2", "rf2l"], ["rf3r", "rf3"], ["rf3", "rf3l"],
+      ["rf1r", "rf2r"], ["rf2r", "rf3r"], ["rf1l", "rf2l"], ["rf2l", "rf3l"],
+      ["rf1r", "f2r"], ["rf1l", "f2l"], ["rf2r", "f3r"], ["rf2l", "f3l"], ["rf3r", "f4r"], ["rf3l", "f4l"],
+
+      // Rear Bumper Beams
+      {"beamSpring": 651000, "beamDamp": 80},
+      {"beamDeform": 12000, "beamStrength": 35000},
+      ["rb1rr", "rb1r"], ["rb1r", "rb1"], ["rb1", "rb1l"], ["rb1l", "rb1ll"],
+      ["rb2rr", "rb2r"], ["rb2r", "rb2"], ["rb2", "rb2l"],
+      ["rb1r", "f4r"], ["rb1l", "f4l"]
+    ],
+    "triangles": [
+      ["id1:", "id2:", "id3:"],
+      {"groundModel": "metal"},
+      {"dragCoef": 10},
+
+      // Front Bumper Face
+      ["fb1rr", "fb2rr", "fb2r"],
+      ["fb1rr", "fb2r", "fb1r"],
+      ["fb1r", "fb2r", "fb2"],
+      ["fb1r", "fb2", "fb1"],
+      ["fb1", "fb2", "fb2l"],
+      ["fb1", "fb2l", "fb1l"],
+      ["fb1l", "fb2l", "fb2ll"],
+      ["fb1l", "fb2ll", "fb1ll"],
+
+      // Hood Face
+      ["h1r", "h2r", "h2"],
+      ["h1r", "h2", "h1"],
+      ["h1", "h2", "h2l"],
+      ["h1", "h2l", "h1l"],
+      ["h2r", "h3r", "h3"],
+      ["h2r", "h3", "h2"],
+      ["h2", "h3", "h3l"],
+      ["h2", "h3l", "h2l"],
+
+      // Roof Face
+      ["rf1r", "rf2r", "rf2"],
+      ["rf1r", "rf2", "rf1"],
+      ["rf1", "rf2", "rf2l"],
+      ["rf1", "rf2l", "rf1l"],
+      ["rf2r", "rf3r", "rf3"],
+      ["rf2r", "rf3", "rf2"],
+      ["rf2", "rf3", "rf3l"],
+      ["rf2", "rf3l", "rf2l"]
+    ]
+  }
+}

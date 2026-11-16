@@ -1,0 +1,363 @@
+{
+  "Laguna_Champagne_Silver": {
+    "name": "Laguna_Champagne_Silver",
+    "mapTo": "Laguna_Champagne_Silver",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorPaletteMapUsePaintColor": [
+          true,
+          true,
+          true
+        ],
+        "baseColorFactor": [
+          0.68,
+          0.67,
+          0.64,
+          1.0
+        ],
+        "roughnessFactor": 0.28,
+        "metallicFactor": 0.55,
+        "clearCoatFactor": 0.85,
+        "clearCoatRoughnessFactor": 0.05
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Factory_Solarglass": {
+    "name": "Laguna_Factory_Solarglass",
+    "mapTo": "Laguna_Factory_Solarglass",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.09,
+          0.13,
+          0.16,
+          0.66
+        ],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 0.0,
+        "opacity": 0.66
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Trim_Charcoal": {
+    "name": "Laguna_Trim_Charcoal",
+    "mapTo": "Laguna_Trim_Charcoal",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.06,
+          0.06,
+          0.065,
+          1.0
+        ],
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Pillar_Black": {
+    "name": "Laguna_Pillar_Black",
+    "mapTo": "Laguna_Pillar_Black",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.02,
+          0.02,
+          0.025,
+          1.0
+        ],
+        "roughnessFactor": 0.6,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Amber_Indicator": {
+    "name": "Laguna_Amber_Indicator",
+    "mapTo": "Laguna_Amber_Indicator",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.98,
+          0.45,
+          0.02,
+          0.85
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.05,
+        "emissiveFactor": [
+          0.98,
+          0.45,
+          0.02
+        ]
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Headlight_Glass": {
+    "name": "Laguna_Headlight_Glass",
+    "mapTo": "Laguna_Headlight_Glass",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.97,
+          0.98,
+          1.0,
+          0.15
+        ],
+        "roughnessFactor": 0.01,
+        "metallicFactor": 0.0,
+        "opacity": 0.15
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Headlight_Reflector": {
+    "name": "Laguna_Headlight_Reflector",
+    "mapTo": "Laguna_Pupil_Chrome",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.98,
+          0.98,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.98,
+        "emissiveFactor": [
+          0.95,
+          0.98,
+          1.0
+        ]
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Taillight_Ruby": {
+    "name": "Laguna_Taillight_Ruby",
+    "mapTo": "Laguna_Taillight_Ruby",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.78,
+          0.01,
+          0.02,
+          0.9
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.05,
+        "emissiveFactor": [
+          0.78,
+          0.01,
+          0.02
+        ]
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Taillight_Clear": {
+    "name": "Laguna_Taillight_Clear",
+    "mapTo": "Laguna_Pupil_Clear",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.96,
+          0.96,
+          0.98,
+          0.45
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.05
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Factory_Alloy": {
+    "name": "Laguna_Factory_Alloy",
+    "mapTo": "Laguna_Alloy_Silverstone",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.86,
+          0.88,
+          0.9,
+          1.0
+        ],
+        "roughnessFactor": 0.18,
+        "metallicFactor": 0.78,
+        "clearCoatFactor": 0.8
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Road_Tire": {
+    "name": "Laguna_Road_Tire",
+    "mapTo": "Laguna_Tire_Rubber",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.022,
+          0.022,
+          0.025,
+          1.0
+        ],
+        "roughnessFactor": 0.82,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Chrome": {
+    "name": "Laguna_Chrome",
+    "mapTo": "Laguna_Chrome",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.98,
+          0.98,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Interior_Charcoal": {
+    "name": "Laguna_Interior_Charcoal",
+    "mapTo": "Laguna_Interior_Charcoal",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.045, 0.045, 0.05, 1.0],
+        "roughnessFactor": 0.82,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Trim_Black": {
+    "name": "Laguna_Trim_Black",
+    "mapTo": "Laguna_Trim_Black",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.035, 0.035, 0.04, 1.0],
+        "roughnessFactor": 0.72,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Rim_White": {
+    "name": "Laguna_Rim_White",
+    "mapTo": "Laguna_Rim_White",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.82, 0.84, 0.86, 1.0],
+        "roughnessFactor": 0.2,
+        "metallicFactor": 0.72
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Wheel_Cavity_Dark": {
+    "name": "Laguna_Wheel_Cavity_Dark",
+    "mapTo": "Laguna_Wheel_Cavity_Dark",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.035, 0.035, 0.04, 1.0],
+        "roughnessFactor": 0.78,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Front_Plate_White": {
+    "name": "Laguna_Front_Plate_White",
+    "mapTo": "Laguna_Front_Plate_White",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.94, 0.94, 0.9, 1.0],
+        "roughnessFactor": 0.68,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Rear_Plate_Yellow": {
+    "name": "Laguna_Rear_Plate_Yellow",
+    "mapTo": "Laguna_Rear_Plate_Yellow",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.9, 0.66, 0.24, 1.0],
+        "roughnessFactor": 0.68,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_3rd_Brake_LED": {
+    "name": "Laguna_3rd_Brake_LED",
+    "mapTo": "Laguna_3rd_Brake_LED",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.78, 0.015, 0.02, 1.0],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 0.0,
+        "emissiveFactor": [0.25, 0.0, 0.0]
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Glass_Tinted": {
+    "name": "Laguna_Glass_Tinted",
+    "mapTo": "Laguna_Glass_Tinted",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.09, 0.13, 0.16, 0.66],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 0.0,
+        "opacity": 0.66
+      }
+    ],
+    "version": 1.5
+  },
+  "Laguna_Pupil_Clear": {
+    "name": "Laguna_Pupil_Clear",
+    "mapTo": "Laguna_Pupil_Clear",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [0.96, 0.96, 0.98, 0.4],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "opacity": 0.4
+      }
+    ],
+    "version": 1.5
+  }
+}

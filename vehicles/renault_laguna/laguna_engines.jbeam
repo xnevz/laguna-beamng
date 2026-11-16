@@ -1,0 +1,132 @@
+{
+  "laguna_engine_2.0_16v": {
+    "information": {
+      "authors": "Antigravity & Abdelkarim",
+      "name": "2.0L 16V I4 Engine (F4R)"
+    },
+    "slotType": "laguna_engine",
+    "slots": [
+      ["type", "default", "description"],
+      ["laguna_intake_2.0", "laguna_intake_2.0_na", "Intake"]
+    ],
+    "powertrain": [
+      ["type", "name", "inputName", "inputIndex"],
+      ["combustionEngine", "mainEngine", "dummy", 0]
+    ],
+    "mainEngine": {
+      "torque": [
+        ["rpm", "torque"],
+        [0, 0],
+        [1000, 130],
+        [2000, 165],
+        [3000, 182],
+        [3750, 191],
+        [5000, 185],
+        [6000, 160],
+        [6500, 140],
+        [7000, 110]
+      ],
+      "idleRPM": 750,
+      "maxRPM": 6500,
+      "inertia": 0.14,
+      "friction": 13,
+      "dynamicFriction": 0.024,
+      "burnEfficiency": 0.35,
+      "torqueReactionNodes:": ["e1l", "e2l", "e4r"],
+      "particulates": 0.02
+    }
+  },
+  "laguna_engine_1.9dci": {
+    "information": {
+      "authors": "Antigravity & Abdelkarim",
+      "name": "1.9L dCi Turbo Diesel Engine (F9Q)"
+    },
+    "slotType": "laguna_engine",
+    "powertrain": [
+      ["type", "name", "inputName", "inputIndex"],
+      ["combustionEngine", "mainEngine", "dummy", 0]
+    ],
+    "mainEngine": {
+      "torque": [
+        ["rpm", "torque"],
+        [0, 0],
+        [1000, 180],
+        [1500, 260],
+        [2000, 300],
+        [2500, 290],
+        [3000, 270],
+        [4000, 210],
+        [4500, 160],
+        [5000, 100]
+      ],
+      "idleRPM": 800,
+      "maxRPM": 4750,
+      "inertia": 0.18,
+      "friction": 16,
+      "dynamicFriction": 0.028,
+      "burnEfficiency": 0.42,
+      "particulates": 0.08
+    }
+  },
+  "laguna_engine_3.0_v6": {
+    "information": {
+      "authors": "Antigravity & Abdelkarim",
+      "name": "3.0L 24V V6 Engine (L7X/ES9)"
+    },
+    "slotType": "laguna_engine",
+    "powertrain": [
+      ["type", "name", "inputName", "inputIndex"],
+      ["combustionEngine", "mainEngine", "dummy", 0]
+    ],
+    "mainEngine": {
+      "torque": [
+        ["rpm", "torque"],
+        [0, 0],
+        [1000, 190],
+        [2000, 240],
+        [3000, 275],
+        [4000, 285],
+        [5000, 275],
+        [6000, 245],
+        [6500, 210],
+        [7000, 160]
+      ],
+      "idleRPM": 700,
+      "maxRPM": 6500,
+      "inertia": 0.18,
+      "friction": 15,
+      "dynamicFriction": 0.026,
+      "burnEfficiency": 0.33
+    }
+  },
+  "laguna_engine_3.5_v6": {
+    "information": {
+      "authors": "Antigravity & Abdelkarim",
+      "name": "3.5L 24V V6 Engine (V4Y - Laguna Coupe Flagship)"
+    },
+    "slotType": "laguna_engine",
+    "powertrain": [
+      ["type", "name", "inputName", "inputIndex"],
+      ["combustionEngine", "mainEngine", "dummy", 0]
+    ],
+    "mainEngine": {
+      "torque": [
+        ["rpm", "torque"],
+        [0, 0],
+        [1000, 230],
+        [2000, 290],
+        [3000, 325],
+        [4400, 330],
+        [5500, 310],
+        [6000, 285],
+        [6600, 240]
+      ],
+      "idleRPM": 650,
+      "maxRPM": 6600,
+      "inertia": 0.20,
+      "friction": 16,
+      "dynamicFriction": 0.025,
+      "burnEfficiency": 0.34
+    }
+  }
+}

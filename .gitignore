@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Blender backups / autosaves
+*.blend1
+*.blend2
+*.blend@
+blender/*.blend[0-9]
+blender/_autosave*
+
+# Downloaded third-party reference models (large, licensed by their authors;
+# re-fetch with tools/fetch_all_references.py)
+blender/references/*/
+
+# Build output (regenerate with tools/package_mod.py)
+*.zip
+
+# Scratch / test renders / previews
+scratch/
+/test_*.png
+/preview_*.png
+/laguna_*.png
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors / tooling
+.vscode/
+.idea/
+.claude/
