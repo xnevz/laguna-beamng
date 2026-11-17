@@ -1,0 +1,1170 @@
+{
+  "laguna2_transmission_5M_A": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "5-Speed Manual (JR5)",
+      "value": 0
+    },
+    "slotType": "laguna2_transmission_A",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        4.21,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "frictionClutch",
+        "clutch",
+        "mainEngine",
+        1
+      ],
+      [
+        "manualGearbox",
+        "gearbox",
+        "clutch",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.55,
+        0,
+        3.73,
+        2.05,
+        1.39,
+        1.03,
+        0.76
+      ],
+      "friction": 1.2,
+      "dynamicFriction": 0.0004
+    },
+    "clutch": {
+      "clutchFreePlay": 0.75,
+      "lockSpringCoef": 0.3
+    }
+  },
+  "laguna2_transmission_5M_B": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "5-Speed Manual (JR5)",
+      "value": 0
+    },
+    "slotType": "laguna2_transmission_B",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        4.21,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "frictionClutch",
+        "clutch",
+        "mainEngine",
+        1
+      ],
+      [
+        "manualGearbox",
+        "gearbox",
+        "clutch",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.55,
+        0,
+        3.73,
+        2.05,
+        1.39,
+        1.03,
+        0.76
+      ],
+      "friction": 1.2,
+      "dynamicFriction": 0.0004
+    },
+    "clutch": {
+      "clutchFreePlay": 0.75,
+      "lockSpringCoef": 0.3
+    }
+  },
+  "laguna2_transmission_4A_B": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "4-Speed Automatic \"Proactive\" (DP0)",
+      "value": 900
+    },
+    "slotType": "laguna2_transmission_B",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        4.12,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "torqueConverter",
+        "torqueConverter",
+        "mainEngine",
+        1
+      ],
+      [
+        "automaticGearbox",
+        "gearbox",
+        "torqueConverter",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -2.46,
+        0,
+        2.72,
+        1.5,
+        1.0,
+        0.71
+      ],
+      "parkLockTorque": 2500,
+      "friction": 1.6,
+      "dynamicFriction": 0.0006
+    },
+    "torqueConverter": {
+      "converterDiameter": 0.25,
+      "converterStiffness": 10,
+      "couplingAVRatio": 0.9,
+      "stallTorqueRatio": 2.0,
+      "lockupClutchTorque": 450
+    }
+  },
+  "laguna2_transmission_5M_C": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "5-Speed Manual (JR5)",
+      "value": 0
+    },
+    "slotType": "laguna2_transmission_C",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        4.21,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "frictionClutch",
+        "clutch",
+        "mainEngine",
+        1
+      ],
+      [
+        "manualGearbox",
+        "gearbox",
+        "clutch",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.55,
+        0,
+        3.73,
+        2.05,
+        1.39,
+        1.03,
+        0.76
+      ],
+      "friction": 1.2,
+      "dynamicFriction": 0.0004
+    },
+    "clutch": {
+      "clutchFreePlay": 0.75,
+      "lockSpringCoef": 0.3
+    }
+  },
+  "laguna2_transmission_6M_C": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "6-Speed Manual (PK6)",
+      "value": 350
+    },
+    "slotType": "laguna2_transmission_C",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        3.87,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "frictionClutch",
+        "clutch",
+        "mainEngine",
+        1
+      ],
+      [
+        "manualGearbox",
+        "gearbox",
+        "clutch",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.55,
+        0,
+        3.73,
+        2.05,
+        1.39,
+        1.03,
+        0.82,
+        0.69
+      ],
+      "friction": 1.2,
+      "dynamicFriction": 0.0004
+    },
+    "clutch": {
+      "clutchFreePlay": 0.75,
+      "lockSpringCoef": 0.3
+    }
+  },
+  "laguna2_transmission_4A_C": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "4-Speed Automatic \"Proactive\" (DP0)",
+      "value": 900
+    },
+    "slotType": "laguna2_transmission_C",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        4.12,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "torqueConverter",
+        "torqueConverter",
+        "mainEngine",
+        1
+      ],
+      [
+        "automaticGearbox",
+        "gearbox",
+        "torqueConverter",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -2.46,
+        0,
+        2.72,
+        1.5,
+        1.0,
+        0.71
+      ],
+      "parkLockTorque": 2500,
+      "friction": 1.6,
+      "dynamicFriction": 0.0006
+    },
+    "torqueConverter": {
+      "converterDiameter": 0.25,
+      "converterStiffness": 10,
+      "couplingAVRatio": 0.9,
+      "stallTorqueRatio": 2.0,
+      "lockupClutchTorque": 450
+    }
+  },
+  "laguna2_transmission_6M_D": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "6-Speed Manual (PK6)",
+      "value": 350
+    },
+    "slotType": "laguna2_transmission_D",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        3.87,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "frictionClutch",
+        "clutch",
+        "mainEngine",
+        1
+      ],
+      [
+        "manualGearbox",
+        "gearbox",
+        "clutch",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.55,
+        0,
+        3.73,
+        2.05,
+        1.39,
+        1.03,
+        0.82,
+        0.69
+      ],
+      "friction": 1.2,
+      "dynamicFriction": 0.0004
+    },
+    "clutch": {
+      "clutchFreePlay": 0.75,
+      "lockSpringCoef": 0.3
+    }
+  },
+  "laguna2_transmission_5A_D": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "5-Speed Automatic with +/- mode (Aisin AJ0)",
+      "value": 1300
+    },
+    "slotType": "laguna2_transmission_D",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        3.65,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "torqueConverter",
+        "torqueConverter",
+        "mainEngine",
+        1
+      ],
+      [
+        "automaticGearbox",
+        "gearbox",
+        "torqueConverter",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.37,
+        0,
+        3.52,
+        2.04,
+        1.4,
+        1.0,
+        0.73
+      ],
+      "parkLockTorque": 2500,
+      "friction": 1.6,
+      "dynamicFriction": 0.0006
+    },
+    "torqueConverter": {
+      "converterDiameter": 0.25,
+      "converterStiffness": 10,
+      "couplingAVRatio": 0.9,
+      "stallTorqueRatio": 2.0,
+      "lockupClutchTorque": 450
+    }
+  },
+  "laguna2_transmission_5A_E": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "5-Speed Automatic with +/- mode (Aisin AJ0)",
+      "value": 1300
+    },
+    "slotType": "laguna2_transmission_E",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        3.65,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "torqueConverter",
+        "torqueConverter",
+        "mainEngine",
+        1
+      ],
+      [
+        "automaticGearbox",
+        "gearbox",
+        "torqueConverter",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.37,
+        0,
+        3.52,
+        2.04,
+        1.4,
+        1.0,
+        0.73
+      ],
+      "parkLockTorque": 2500,
+      "friction": 1.6,
+      "dynamicFriction": 0.0006
+    },
+    "torqueConverter": {
+      "converterDiameter": 0.25,
+      "converterStiffness": 10,
+      "couplingAVRatio": 0.9,
+      "stallTorqueRatio": 2.0,
+      "lockupClutchTorque": 450
+    }
+  },
+  "laguna2_transmission_6M_E": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "6-Speed Manual (PK6)",
+      "value": 350
+    },
+    "slotType": "laguna2_transmission_E",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        3.87,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "frictionClutch",
+        "clutch",
+        "mainEngine",
+        1
+      ],
+      [
+        "manualGearbox",
+        "gearbox",
+        "clutch",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.55,
+        0,
+        3.73,
+        2.05,
+        1.39,
+        1.03,
+        0.82,
+        0.69
+      ],
+      "friction": 1.2,
+      "dynamicFriction": 0.0004
+    },
+    "clutch": {
+      "clutchFreePlay": 0.75,
+      "lockSpringCoef": 0.3
+    }
+  },
+  "laguna2_transmission_5M_F": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "5-Speed Manual (JR5)",
+      "value": 0
+    },
+    "slotType": "laguna2_transmission_F",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        4.21,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "frictionClutch",
+        "clutch",
+        "mainEngine",
+        1
+      ],
+      [
+        "manualGearbox",
+        "gearbox",
+        "clutch",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.55,
+        0,
+        3.73,
+        2.05,
+        1.39,
+        1.03,
+        0.76
+      ],
+      "friction": 1.2,
+      "dynamicFriction": 0.0004
+    },
+    "clutch": {
+      "clutchFreePlay": 0.75,
+      "lockSpringCoef": 0.3
+    }
+  },
+  "laguna2_transmission_6M_F": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "6-Speed Manual (PK6)",
+      "value": 350
+    },
+    "slotType": "laguna2_transmission_F",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        3.87,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "frictionClutch",
+        "clutch",
+        "mainEngine",
+        1
+      ],
+      [
+        "manualGearbox",
+        "gearbox",
+        "clutch",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.55,
+        0,
+        3.73,
+        2.05,
+        1.39,
+        1.03,
+        0.82,
+        0.69
+      ],
+      "friction": 1.2,
+      "dynamicFriction": 0.0004
+    },
+    "clutch": {
+      "clutchFreePlay": 0.75,
+      "lockSpringCoef": 0.3
+    }
+  },
+  "laguna2_transmission_5A_F": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "5-Speed Automatic with +/- mode (Aisin AJ0)",
+      "value": 1300
+    },
+    "slotType": "laguna2_transmission_F",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_differential",
+        "laguna2_differential_open",
+        "Front Differential"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$finaldrive",
+        "range",
+        ":1",
+        "Differentials",
+        3.65,
+        2.5,
+        6.0,
+        "Final Drive Ratio",
+        "Higher = quicker acceleration, lower top speed"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "torqueConverter",
+        "torqueConverter",
+        "mainEngine",
+        1
+      ],
+      [
+        "automaticGearbox",
+        "gearbox",
+        "torqueConverter",
+        1
+      ]
+    ],
+    "gearbox": {
+      "gearRatios": [
+        -3.37,
+        0,
+        3.52,
+        2.04,
+        1.4,
+        1.0,
+        0.73
+      ],
+      "parkLockTorque": 2500,
+      "friction": 1.6,
+      "dynamicFriction": 0.0006
+    },
+    "torqueConverter": {
+      "converterDiameter": 0.25,
+      "converterStiffness": 10,
+      "couplingAVRatio": 0.9,
+      "stallTorqueRatio": 2.0,
+      "lockupClutchTorque": 450
+    }
+  },
+  "laguna2_differential_open": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Open Differential (factory)",
+      "value": 0
+    },
+    "slotType": "laguna2_differential",
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "differential",
+        "differential_F",
+        "gearbox",
+        1,
+        {
+          "gearRatio": "$finaldrive",
+          "friction": 2.5,
+          "diffType": "open"
+        }
+      ],
+      [
+        "shaft",
+        "wheelaxleFL",
+        "differential_F",
+        1,
+        {
+          "connectedWheel": "FL"
+        }
+      ],
+      [
+        "shaft",
+        "wheelaxleFR",
+        "differential_F",
+        2,
+        {
+          "connectedWheel": "FR"
+        }
+      ]
+    ]
+  },
+  "laguna2_differential_lsd": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Limited-Slip Differential (aftermarket)",
+      "value": 650
+    },
+    "slotType": "laguna2_differential",
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "differential",
+        "differential_F",
+        "gearbox",
+        1,
+        {
+          "gearRatio": "$finaldrive",
+          "friction": 2.5,
+          "diffType": "lsd",
+          "lsdPreload": 60,
+          "lsdLockCoef": 0.18,
+          "lsdRevLockCoef": 0.1
+        }
+      ],
+      [
+        "shaft",
+        "wheelaxleFL",
+        "differential_F",
+        1,
+        {
+          "connectedWheel": "FL"
+        }
+      ],
+      [
+        "shaft",
+        "wheelaxleFR",
+        "differential_F",
+        2,
+        {
+          "connectedWheel": "FR"
+        }
+      ]
+    ]
+  }
+}

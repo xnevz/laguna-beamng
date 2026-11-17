@@ -1,0 +1,56 @@
+{
+  "format": 2,
+  "model": "renault_laguna",
+  "parts": {
+    "laguna2_body": "laguna2_body_liftback",
+    "laguna2_engine": "laguna2_engine_20t",
+    "laguna2_transmission_D": "laguna2_transmission_6M_D",
+    "laguna2_suspension_F": "laguna2_suspension_F_lowered",
+    "laguna2_suspension_R": "laguna2_suspension_R_lowered",
+    "laguna2_brakes": "laguna2_brakes_large",
+    "laguna2_taillights": "laguna2_taillights_smoked",
+    "laguna2_glass": "laguna2_glass_dark",
+    "laguna2_rearwiper": "",
+    "laguna2_differential": "laguna2_differential_lsd",
+    "laguna2_mouldings": "laguna2_mouldings_body"
+  },
+  "vars": {},
+  "paints": [
+    {
+      "baseColor": [
+        0.2,
+        0.21,
+        0.23,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    {
+      "baseColor": [
+        0.2,
+        0.21,
+        0.23,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    {
+      "baseColor": [
+        0.2,
+        0.21,
+        0.23,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    }
+  ]
+}

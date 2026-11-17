@@ -1,0 +1,19 @@
+{
+  "Configuration": "Expression 1.9 dCi",
+  "Description": "The everyday Laguna: 1.9 dCi diesel, 6-speed manual, alloys.",
+  "Config Type": "Factory",
+  "Value": 21500,
+  "Body Style": "Liftback",
+  "Drivetrain": "FWD",
+  "Fuel Type": "Diesel",
+  "Induction Type": "Turbo",
+  "Transmission": "Manual",
+  "Power": 121,
+  "Torque": 300,
+  "Weight": 1305,
+  "Years": {
+    "min": 2001,
+    "max": 2005
+  },
+  "defaultPaintName1": "Gris Hologramme"
+}

@@ -1,0 +1,52 @@
+{
+  "format": 2,
+  "model": "renault_laguna",
+  "parts": {
+    "laguna2_body": "laguna2_body_liftback",
+    "laguna2_engine": "laguna2_engine_22dci",
+    "laguna2_transmission_D": "laguna2_transmission_5A_D",
+    "laguna2_headlights": "laguna2_headlights_xenon",
+    "laguna2_glass": "laguna2_glass_privacy",
+    "laguna2_parksensors": "laguna2_parksensors",
+    "laguna2_mouldings": "laguna2_mouldings_body"
+  },
+  "vars": {},
+  "paints": [
+    {
+      "baseColor": [
+        0.03,
+        0.1,
+        0.36,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    {
+      "baseColor": [
+        0.03,
+        0.1,
+        0.36,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    {
+      "baseColor": [
+        0.03,
+        0.1,
+        0.36,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    }
+  ]
+}

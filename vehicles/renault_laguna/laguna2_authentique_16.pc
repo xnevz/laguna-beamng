@@ -1,0 +1,50 @@
+{
+  "format": 2,
+  "model": "renault_laguna",
+  "parts": {
+    "laguna2_body": "laguna2_body_liftback",
+    "laguna2_engine": "laguna2_engine_16",
+    "laguna2_transmission_A": "laguna2_transmission_5M_A",
+    "laguna2_wheels": "laguna2_wheels_steel15",
+    "laguna2_foglights": ""
+  },
+  "vars": {},
+  "paints": [
+    {
+      "baseColor": [
+        0.86,
+        0.87,
+        0.87,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4,
+      "clearcoat": 0.6,
+      "clearcoatRoughness": 0.05
+    },
+    {
+      "baseColor": [
+        0.86,
+        0.87,
+        0.87,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4,
+      "clearcoat": 0.6,
+      "clearcoatRoughness": 0.05
+    },
+    {
+      "baseColor": [
+        0.86,
+        0.87,
+        0.87,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4,
+      "clearcoat": 0.6,
+      "clearcoatRoughness": 0.05
+    }
+  ]
+}

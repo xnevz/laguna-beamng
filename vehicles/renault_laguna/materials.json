@@ -246,7 +246,12 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.045, 0.045, 0.05, 1.0],
+        "baseColorFactor": [
+          0.045,
+          0.045,
+          0.05,
+          1.0
+        ],
         "roughnessFactor": 0.82,
         "metallicFactor": 0.0
       }
@@ -259,7 +264,12 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.035, 0.035, 0.04, 1.0],
+        "baseColorFactor": [
+          0.035,
+          0.035,
+          0.04,
+          1.0
+        ],
         "roughnessFactor": 0.72,
         "metallicFactor": 0.0
       }
@@ -272,7 +282,12 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.82, 0.84, 0.86, 1.0],
+        "baseColorFactor": [
+          0.82,
+          0.84,
+          0.86,
+          1.0
+        ],
         "roughnessFactor": 0.2,
         "metallicFactor": 0.72
       }
@@ -285,7 +300,12 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.035, 0.035, 0.04, 1.0],
+        "baseColorFactor": [
+          0.035,
+          0.035,
+          0.04,
+          1.0
+        ],
         "roughnessFactor": 0.78,
         "metallicFactor": 0.0
       }
@@ -298,7 +318,12 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.94, 0.94, 0.9, 1.0],
+        "baseColorFactor": [
+          0.94,
+          0.94,
+          0.9,
+          1.0
+        ],
         "roughnessFactor": 0.68,
         "metallicFactor": 0.0
       }
@@ -311,7 +336,12 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.9, 0.66, 0.24, 1.0],
+        "baseColorFactor": [
+          0.9,
+          0.66,
+          0.24,
+          1.0
+        ],
         "roughnessFactor": 0.68,
         "metallicFactor": 0.0
       }
@@ -324,10 +354,19 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.78, 0.015, 0.02, 1.0],
+        "baseColorFactor": [
+          0.78,
+          0.015,
+          0.02,
+          1.0
+        ],
         "roughnessFactor": 0.1,
         "metallicFactor": 0.0,
-        "emissiveFactor": [0.25, 0.0, 0.0]
+        "emissiveFactor": [
+          0.25,
+          0.0,
+          0.0
+        ]
       }
     ],
     "version": 1.5
@@ -338,7 +377,12 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.09, 0.13, 0.16, 0.66],
+        "baseColorFactor": [
+          0.09,
+          0.13,
+          0.16,
+          0.66
+        ],
         "roughnessFactor": 0.1,
         "metallicFactor": 0.0,
         "opacity": 0.66
@@ -352,10 +396,2097 @@
     "class": "Material",
     "Stages": [
       {
-        "baseColorFactor": [0.96, 0.96, 0.98, 0.4],
+        "baseColorFactor": [
+          0.96,
+          0.96,
+          0.98,
+          0.4
+        ],
         "roughnessFactor": 0.03,
         "metallicFactor": 0.0,
         "opacity": 0.4
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_alloy": {
+    "name": "laguna2_alloy",
+    "mapTo": "laguna2_alloy",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8962,
+          0.9013,
+          0.9063,
+          1.0
+        ],
+        "roughnessFactor": 0.22,
+        "metallicFactor": 1.0,
+        "clearCoatFactor": 0.6,
+        "clearCoatRoughnessFactor": 0.04
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_alloy_dark": {
+    "name": "laguna2_alloy_dark",
+    "mapTo": "laguna2_alloy_dark",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.3492,
+          0.3492,
+          0.3656,
+          1.0
+        ],
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.8
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_amber": {
+    "name": "laguna2_amber",
+    "mapTo": "laguna2_amber",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.65,
+          0.1517,
+          1.0
+        ],
+        "roughnessFactor": 0.15,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_badge_housing": {
+    "name": "laguna2_badge_housing",
+    "mapTo": "laguna2_badge_housing",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.1897,
+          0.1897,
+          0.1997,
+          1.0
+        ],
+        "roughnessFactor": 0.15,
+        "metallicFactor": 0.4,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_black": {
+    "name": "laguna2_black",
+    "mapTo": "laguna2_black",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.061,
+          0.061,
+          0.0702,
+          1.0
+        ],
+        "roughnessFactor": 0.6,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_brake3": {
+    "name": "laguna2_brake3",
+    "mapTo": "laguna2_brake3",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7674,
+          0.0861,
+          0.1121,
+          1.0
+        ],
+        "roughnessFactor": 0.05,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_brake3_on": {
+    "name": "laguna2_brake3_on",
+    "mapTo": "laguna2_brake3_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7674,
+          0.0861,
+          0.1121,
+          1.0
+        ],
+        "roughnessFactor": 0.05,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.8808,
+          0.1284,
+          0.1284
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_brake3_on_intense": {
+    "name": "laguna2_brake3_on_intense",
+    "mapTo": "laguna2_brake3_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7674,
+          0.0861,
+          0.1121,
+          1.0
+        ],
+        "roughnessFactor": 0.05,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          1.0,
+          0.1517,
+          0.1517
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_bulb": {
+    "name": "laguna2_bulb",
+    "mapTo": "laguna2_bulb",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.9777,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.05,
+        "metallicFactor": 0.0,
+        "emissiveFactor": [
+          0.5838,
+          0.5758,
+          0.5564
+        ]
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_chrome": {
+    "name": "laguna2_chrome",
+    "mapTo": "laguna2_chrome",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.964,
+          0.9686,
+          0.9777,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_chrome_brushed": {
+    "name": "laguna2_chrome_brushed",
+    "mapTo": "laguna2_chrome_brushed",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9063,
+          0.9113,
+          0.9212,
+          1.0
+        ],
+        "roughnessFactor": 0.16,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_disc": {
+    "name": "laguna2_disc",
+    "mapTo": "laguna2_disc",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.4366,
+          0.4366,
+          0.4492,
+          1.0
+        ],
+        "roughnessFactor": 0.5,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_fog": {
+    "name": "laguna2_fog",
+    "mapTo": "laguna2_fog",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_fog_on": {
+    "name": "laguna2_fog_on",
+    "mapTo": "laguna2_fog_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8808,
+          0.861,
+          0.8238
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_fog_on_intense": {
+    "name": "laguna2_fog_on_intense",
+    "mapTo": "laguna2_fog_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          1.0,
+          0.9777,
+          0.9357
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_gap": {
+    "name": "laguna2_gap",
+    "mapTo": "laguna2_gap",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.0388,
+          0.0388,
+          0.0507,
+          1.0
+        ],
+        "roughnessFactor": 0.9,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_glass": {
+    "name": "laguna2_glass",
+    "mapTo": "laguna2_glass",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.0702,
+          0.1232,
+          0.1284,
+          0.8
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.0,
+        "opacityFactor": 0.8
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_glass_dark": {
+    "name": "laguna2_glass_dark",
+    "mapTo": "laguna2_glass_dark",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.0129,
+          0.0129,
+          0.0155,
+          0.97
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.0,
+        "opacityFactor": 0.97
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_glass_privacy": {
+    "name": "laguna2_glass_privacy",
+    "mapTo": "laguna2_glass_privacy",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.0388,
+          0.061,
+          0.061,
+          0.92
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.0,
+        "opacityFactor": 0.92
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_grille": {
+    "name": "laguna2_grille",
+    "mapTo": "laguna2_grille",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.1121,
+          0.1121,
+          0.1177,
+          1.0
+        ],
+        "roughnessFactor": 0.35,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_grille_slat": {
+    "name": "laguna2_grille_slat",
+    "mapTo": "laguna2_grille_slat",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.1517,
+          0.1517,
+          0.1601,
+          1.0
+        ],
+        "roughnessFactor": 0.22,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_high": {
+    "name": "laguna2_hl_high",
+    "mapTo": "laguna2_hl_high",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_high_on": {
+    "name": "laguna2_hl_high_on",
+    "mapTo": "laguna2_hl_high_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8808,
+          0.8238,
+          0.7321
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_high_on_intense": {
+    "name": "laguna2_hl_high_on_intense",
+    "mapTo": "laguna2_hl_high_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          1.0,
+          0.9357,
+          0.8323
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_low": {
+    "name": "laguna2_hl_low",
+    "mapTo": "laguna2_hl_low",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_low_on": {
+    "name": "laguna2_hl_low_on",
+    "mapTo": "laguna2_hl_low_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8808,
+          0.8238,
+          0.7321
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_low_on_intense": {
+    "name": "laguna2_hl_low_on_intense",
+    "mapTo": "laguna2_hl_low_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          1.0,
+          0.9357,
+          0.8323
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_low_on_xenon": {
+    "name": "laguna2_hl_low_on_xenon",
+    "mapTo": "laguna2_hl_low_on_xenon",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.7948,
+          0.8527,
+          0.9309
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_low_on_intense_xenon": {
+    "name": "laguna2_hl_low_on_intense_xenon",
+    "mapTo": "laguna2_hl_low_on_intense_xenon",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8543,
+          0.9163,
+          1.0
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_low_lens": {
+    "name": "laguna2_hl_low_lens",
+    "mapTo": "laguna2_hl_low_lens",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7674,
+          0.8095,
+          0.8543,
+          0.85
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.3,
+        "opacityFactor": 0.85
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_hl_low_lens_on": {
+    "name": "laguna2_hl_low_lens_on",
+    "mapTo": "laguna2_hl_low_lens_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7674,
+          0.8095,
+          0.8543,
+          0.85
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.3,
+        "opacityFactor": 0.85,
+        "emissiveFactor": [
+          0.8808,
+          0.8238,
+          0.7321
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_hl_low_lens_on_intense": {
+    "name": "laguna2_hl_low_lens_on_intense",
+    "mapTo": "laguna2_hl_low_lens_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7674,
+          0.8095,
+          0.8543,
+          0.85
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.3,
+        "opacityFactor": 0.85,
+        "emissiveFactor": [
+          1.0,
+          0.9357,
+          0.8323
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_hl_low_lens_on_xenon": {
+    "name": "laguna2_hl_low_lens_on_xenon",
+    "mapTo": "laguna2_hl_low_lens_on_xenon",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7674,
+          0.8095,
+          0.8543,
+          0.85
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.3,
+        "opacityFactor": 0.85,
+        "emissiveFactor": [
+          0.7846,
+          0.8434,
+          0.9309
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_hl_low_lens_on_intense_xenon": {
+    "name": "laguna2_hl_low_lens_on_intense_xenon",
+    "mapTo": "laguna2_hl_low_lens_on_intense_xenon",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7674,
+          0.8095,
+          0.8543,
+          0.85
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.3,
+        "opacityFactor": 0.85,
+        "emissiveFactor": [
+          0.8434,
+          0.9063,
+          1.0
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_hl_position": {
+    "name": "laguna2_hl_position",
+    "mapTo": "laguna2_hl_position",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.9777,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.05,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_position_on": {
+    "name": "laguna2_hl_position_on",
+    "mapTo": "laguna2_hl_position_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.9777,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.05,
+        "metallicFactor": 0.0,
+        "emissiveFactor": [
+          0.8808,
+          0.861,
+          0.8238
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_position_on_intense": {
+    "name": "laguna2_hl_position_on_intense",
+    "mapTo": "laguna2_hl_position_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.9777,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.05,
+        "metallicFactor": 0.0,
+        "emissiveFactor": [
+          1.0,
+          0.9777,
+          0.9357
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_signal_L": {
+    "name": "laguna2_hl_signal_L",
+    "mapTo": "laguna2_hl_signal_L",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.964,
+          0.9357,
+          0.8756,
+          1.0
+        ],
+        "roughnessFactor": 0.08,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_signal_L_on": {
+    "name": "laguna2_hl_signal_L_on",
+    "mapTo": "laguna2_hl_signal_L_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.964,
+          0.9357,
+          0.8756,
+          1.0
+        ],
+        "roughnessFactor": 0.08,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8808,
+          0.597,
+          0.1284
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_signal_L_on_intense": {
+    "name": "laguna2_hl_signal_L_on_intense",
+    "mapTo": "laguna2_hl_signal_L_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.964,
+          0.9357,
+          0.8756,
+          1.0
+        ],
+        "roughnessFactor": 0.08,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          1.0,
+          0.68,
+          0.1517
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_signal_R": {
+    "name": "laguna2_hl_signal_R",
+    "mapTo": "laguna2_hl_signal_R",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.964,
+          0.9357,
+          0.8756,
+          1.0
+        ],
+        "roughnessFactor": 0.08,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_signal_R_on": {
+    "name": "laguna2_hl_signal_R_on",
+    "mapTo": "laguna2_hl_signal_R_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.964,
+          0.9357,
+          0.8756,
+          1.0
+        ],
+        "roughnessFactor": 0.08,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8808,
+          0.597,
+          0.1284
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hl_signal_R_on_intense": {
+    "name": "laguna2_hl_signal_R_on_intense",
+    "mapTo": "laguna2_hl_signal_R_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.964,
+          0.9357,
+          0.8756,
+          1.0
+        ],
+        "roughnessFactor": 0.08,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          1.0,
+          0.68,
+          0.1517
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_hubcap": {
+    "name": "laguna2_hubcap",
+    "mapTo": "laguna2_hubcap",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8095,
+          0.821,
+          0.8323,
+          1.0
+        ],
+        "roughnessFactor": 0.32,
+        "metallicFactor": 0.55,
+        "clearCoatFactor": 0.4,
+        "clearCoatRoughnessFactor": 0.04
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_interior": {
+    "name": "laguna2_interior",
+    "mapTo": "laguna2_interior",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.206,
+          0.206,
+          0.2151,
+          1.0
+        ],
+        "roughnessFactor": 0.85,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_lamp_clear": {
+    "name": "laguna2_lamp_clear",
+    "mapTo": "laguna2_lamp_clear",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9309,
+          0.9453,
+          0.964,
+          0.16
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 0.0,
+        "opacityFactor": 0.16
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_lamp_housing": {
+    "name": "laguna2_lamp_housing",
+    "mapTo": "laguna2_lamp_housing",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8543,
+          0.865,
+          0.8808,
+          1.0
+        ],
+        "roughnessFactor": 0.45,
+        "metallicFactor": 0.35
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_lamp_ring": {
+    "name": "laguna2_lamp_ring",
+    "mapTo": "laguna2_lamp_ring",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.08,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_mirror": {
+    "name": "laguna2_mirror",
+    "mapTo": "laguna2_mirror",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8808,
+          0.9063,
+          0.9309,
+          1.0
+        ],
+        "roughnessFactor": 0.02,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_paint": {
+    "name": "laguna2_paint",
+    "mapTo": "laguna2_paint",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 0.34,
+        "metallicFactor": 0.55,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "instanceDiffuse": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_plate_blue": {
+    "name": "laguna2_plate_blue",
+    "mapTo": "laguna2_plate_blue",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.0999,
+          0.2934,
+          0.7014,
+          1.0
+        ],
+        "roughnessFactor": 0.4,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_plate_white": {
+    "name": "laguna2_plate_white",
+    "mapTo": "laguna2_plate_white",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9453,
+          0.9453,
+          0.9309,
+          1.0
+        ],
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_platelight": {
+    "name": "laguna2_platelight",
+    "mapTo": "laguna2_platelight",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.9453,
+          1.0
+        ],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_platelight_on": {
+    "name": "laguna2_platelight_on",
+    "mapTo": "laguna2_platelight_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.9453,
+          1.0
+        ],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 0.0,
+        "emissiveFactor": [
+          0.8808,
+          0.861,
+          0.8238
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_platelight_on_intense": {
+    "name": "laguna2_platelight_on_intense",
+    "mapTo": "laguna2_platelight_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.9453,
+          1.0
+        ],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 0.0,
+        "emissiveFactor": [
+          1.0,
+          0.9777,
+          0.9357
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_repeater_L": {
+    "name": "laguna2_repeater_L",
+    "mapTo": "laguna2_repeater_L",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.65,
+          0.1517,
+          1.0
+        ],
+        "roughnessFactor": 0.15,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_repeater_L_on": {
+    "name": "laguna2_repeater_L_on",
+    "mapTo": "laguna2_repeater_L_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.65,
+          0.1517,
+          1.0
+        ],
+        "roughnessFactor": 0.15,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.8808,
+          0.597,
+          0.1284
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_repeater_L_on_intense": {
+    "name": "laguna2_repeater_L_on_intense",
+    "mapTo": "laguna2_repeater_L_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.65,
+          0.1517,
+          1.0
+        ],
+        "roughnessFactor": 0.15,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          1.0,
+          0.68,
+          0.1517
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_repeater_R": {
+    "name": "laguna2_repeater_R",
+    "mapTo": "laguna2_repeater_R",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.65,
+          0.1517,
+          1.0
+        ],
+        "roughnessFactor": 0.15,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_repeater_R_on": {
+    "name": "laguna2_repeater_R_on",
+    "mapTo": "laguna2_repeater_R_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.65,
+          0.1517,
+          1.0
+        ],
+        "roughnessFactor": 0.15,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.8808,
+          0.597,
+          0.1284
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_repeater_R_on_intense": {
+    "name": "laguna2_repeater_R_on_intense",
+    "mapTo": "laguna2_repeater_R_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9777,
+          0.65,
+          0.1517,
+          1.0
+        ],
+        "roughnessFactor": 0.15,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          1.0,
+          0.68,
+          0.1517
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_reverse": {
+    "name": "laguna2_reverse",
+    "mapTo": "laguna2_reverse",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_reverse_on": {
+    "name": "laguna2_reverse_on",
+    "mapTo": "laguna2_reverse_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8808,
+          0.861,
+          0.8238
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_reverse_on_intense": {
+    "name": "laguna2_reverse_on_intense",
+    "mapTo": "laguna2_reverse_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          1.0,
+          0.9777,
+          0.9357
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_seat": {
+    "name": "laguna2_seat",
+    "mapTo": "laguna2_seat",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.5064,
+          0.4845,
+          0.443,
+          1.0
+        ],
+        "roughnessFactor": 0.9,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_sensor": {
+    "name": "laguna2_sensor",
+    "mapTo": "laguna2_sensor",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.1517,
+          0.1517,
+          0.1601,
+          1.0
+        ],
+        "roughnessFactor": 0.45,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_steelwheel": {
+    "name": "laguna2_steelwheel",
+    "mapTo": "laguna2_steelwheel",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.3133,
+          0.3133,
+          0.3227,
+          1.0
+        ],
+        "roughnessFactor": 0.45,
+        "metallicFactor": 0.6
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_eye_red": {
+    "name": "laguna2_tail_eye_red",
+    "mapTo": "laguna2_tail_eye_red",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.68,
+          0.0,
+          0.0999,
+          0.9
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.4845,
+          0.0507,
+          0.0507
+        ],
+        "opacityFactor": 0.9
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_eye_red_on": {
+    "name": "laguna2_tail_eye_red_on",
+    "mapTo": "laguna2_tail_eye_red_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.68,
+          0.0,
+          0.0999,
+          0.9
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.8808,
+          0.1284,
+          0.1284
+        ],
+        "opacityFactor": 0.9,
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_eye_red_on_intense": {
+    "name": "laguna2_tail_eye_red_on_intense",
+    "mapTo": "laguna2_tail_eye_red_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.68,
+          0.0,
+          0.0999,
+          0.9
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          1.0,
+          0.1517,
+          0.1517
+        ],
+        "opacityFactor": 0.9,
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_fog": {
+    "name": "laguna2_tail_fog",
+    "mapTo": "laguna2_tail_fog",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.68,
+          0.0,
+          0.0999,
+          0.9
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.4845,
+          0.0507,
+          0.0507
+        ],
+        "opacityFactor": 0.9
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_fog_on": {
+    "name": "laguna2_tail_fog_on",
+    "mapTo": "laguna2_tail_fog_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.68,
+          0.0,
+          0.0999,
+          0.9
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.8808,
+          0.1284,
+          0.1284
+        ],
+        "opacityFactor": 0.9,
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_fog_on_intense": {
+    "name": "laguna2_tail_fog_on_intense",
+    "mapTo": "laguna2_tail_fog_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.68,
+          0.0,
+          0.0999,
+          0.9
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          1.0,
+          0.1517,
+          0.1517
+        ],
+        "opacityFactor": 0.9,
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_lens_red": {
+    "name": "laguna2_tail_lens_red",
+    "mapTo": "laguna2_tail_lens_red",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8962,
+          0.0999,
+          0.1428,
+          0.93
+        ],
+        "roughnessFactor": 0.04,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.5838,
+          0.0702,
+          0.0702
+        ],
+        "opacityFactor": 0.93
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_lens_red_on": {
+    "name": "laguna2_tail_lens_red_on",
+    "mapTo": "laguna2_tail_lens_red_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8962,
+          0.0999,
+          0.1428,
+          0.93
+        ],
+        "roughnessFactor": 0.04,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.8808,
+          0.1284,
+          0.1284
+        ],
+        "opacityFactor": 0.93,
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_lens_red_on_intense": {
+    "name": "laguna2_tail_lens_red_on_intense",
+    "mapTo": "laguna2_tail_lens_red_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8962,
+          0.0999,
+          0.1428,
+          0.93
+        ],
+        "roughnessFactor": 0.04,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          1.0,
+          0.1517,
+          0.1517
+        ],
+        "opacityFactor": 0.93,
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_lens_smoked": {
+    "name": "laguna2_tail_lens_smoked",
+    "mapTo": "laguna2_tail_lens_smoked",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.4366,
+          0.1121,
+          0.1334,
+          0.95
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.3492,
+          0.0258,
+          0.0258
+        ],
+        "opacityFactor": 0.95
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_lens_smoked_on": {
+    "name": "laguna2_tail_lens_smoked_on",
+    "mapTo": "laguna2_tail_lens_smoked_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.4366,
+          0.1121,
+          0.1334,
+          0.95
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.8808,
+          0.1284,
+          0.1284
+        ],
+        "opacityFactor": 0.95,
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_lens_smoked_on_intense": {
+    "name": "laguna2_tail_lens_smoked_on_intense",
+    "mapTo": "laguna2_tail_lens_smoked_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.4366,
+          0.1121,
+          0.1334,
+          0.95
+        ],
+        "roughnessFactor": 0.03,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          1.0,
+          0.1517,
+          0.1517
+        ],
+        "opacityFactor": 0.95,
+        "glow": true
+      }
+    ],
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": true
+  },
+  "laguna2_tail_reflector": {
+    "name": "laguna2_tail_reflector",
+    "mapTo": "laguna2_tail_reflector",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8808,
+          0.1897,
+          0.2209,
+          1.0
+        ],
+        "roughnessFactor": 0.18,
+        "metallicFactor": 0.6
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_reflector_on": {
+    "name": "laguna2_tail_reflector_on",
+    "mapTo": "laguna2_tail_reflector_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8808,
+          0.1897,
+          0.2209,
+          1.0
+        ],
+        "roughnessFactor": 0.18,
+        "metallicFactor": 0.6,
+        "emissiveFactor": [
+          0.8808,
+          0.1284,
+          0.1284
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_reflector_on_intense": {
+    "name": "laguna2_tail_reflector_on_intense",
+    "mapTo": "laguna2_tail_reflector_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8808,
+          0.1897,
+          0.2209,
+          1.0
+        ],
+        "roughnessFactor": 0.18,
+        "metallicFactor": 0.6,
+        "emissiveFactor": [
+          1.0,
+          0.1517,
+          0.1517
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_rim": {
+    "name": "laguna2_tail_rim",
+    "mapTo": "laguna2_tail_rim",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.5838,
+          0.0,
+          0.0861,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 0.0,
+        "clearCoatFactor": 1.0,
+        "clearCoatRoughnessFactor": 0.04,
+        "emissiveFactor": [
+          0.2209,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_signal_L": {
+    "name": "laguna2_tail_signal_L",
+    "mapTo": "laguna2_tail_signal_L",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_signal_L_on": {
+    "name": "laguna2_tail_signal_L_on",
+    "mapTo": "laguna2_tail_signal_L_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8808,
+          0.597,
+          0.1284
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_signal_L_on_intense": {
+    "name": "laguna2_tail_signal_L_on_intense",
+    "mapTo": "laguna2_tail_signal_L_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          1.0,
+          0.68,
+          0.1517
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_signal_R": {
+    "name": "laguna2_tail_signal_R",
+    "mapTo": "laguna2_tail_signal_R",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_signal_R_on": {
+    "name": "laguna2_tail_signal_R_on",
+    "mapTo": "laguna2_tail_signal_R_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          0.8808,
+          0.597,
+          0.1284
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_signal_R_on_intense": {
+    "name": "laguna2_tail_signal_R_on_intense",
+    "mapTo": "laguna2_tail_signal_R_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9547,
+          0.9547,
+          0.964,
+          1.0
+        ],
+        "roughnessFactor": 0.06,
+        "metallicFactor": 1.0,
+        "emissiveFactor": [
+          1.0,
+          0.68,
+          0.1517
+        ],
+        "glow": true
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tail_tube": {
+    "name": "laguna2_tail_tube",
+    "mapTo": "laguna2_tail_tube",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9063,
+          0.2209,
+          0.2478,
+          1.0
+        ],
+        "roughnessFactor": 0.12,
+        "metallicFactor": 0.9,
+        "emissiveFactor": [
+          0.3886,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_tire": {
+    "name": "laguna2_tire",
+    "mapTo": "laguna2_tire",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.1121,
+          0.1121,
+          0.1177,
+          1.0
+        ],
+        "roughnessFactor": 0.8,
+        "metallicFactor": 0.0
+      }
+    ],
+    "version": 1.5
+  },
+  "laguna2_trim": {
+    "name": "laguna2_trim",
+    "mapTo": "laguna2_trim",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.1428,
+          0.1473,
+          0.1559,
+          1.0
+        ],
+        "roughnessFactor": 0.55,
+        "metallicFactor": 0.0
       }
     ],
     "version": 1.5

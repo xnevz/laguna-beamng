@@ -1,0 +1,19 @@
+{
+  "Configuration": "Privilege 2.2 dCi Auto",
+  "Description": "Comfortable diesel cruiser: 2.2 dCi, 5-speed automatic, xenon lights, privacy glass, parking sensors.",
+  "Config Type": "Factory",
+  "Value": 27500,
+  "Body Style": "Liftback",
+  "Drivetrain": "FWD",
+  "Fuel Type": "Diesel",
+  "Induction Type": "Turbo",
+  "Transmission": "Automatic",
+  "Power": 146,
+  "Torque": 320,
+  "Weight": 1305,
+  "Years": {
+    "min": 2001,
+    "max": 2005
+  },
+  "defaultPaintName1": "Bleu Iliade"
+}

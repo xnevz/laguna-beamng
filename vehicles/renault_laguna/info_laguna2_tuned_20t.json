@@ -1,0 +1,19 @@
+{
+  "Configuration": "2.0 Turbo Street (aftermarket)",
+  "Description": "Lowered, LSD, smoked tail lights and dark windows: a modified 2.0 turbo.",
+  "Config Type": "Custom",
+  "Value": 24000,
+  "Body Style": "Liftback",
+  "Drivetrain": "FWD",
+  "Fuel Type": "Gasoline",
+  "Induction Type": "Turbo",
+  "Transmission": "Manual",
+  "Power": 170,
+  "Torque": 270,
+  "Weight": 1305,
+  "Years": {
+    "min": 2001,
+    "max": 2005
+  },
+  "defaultPaintName1": "Gris Eclipse"
+}

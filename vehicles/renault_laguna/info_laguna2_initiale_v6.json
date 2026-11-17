@@ -1,0 +1,19 @@
+{
+  "Configuration": "Initiale 3.0 V6 Auto",
+  "Description": "Top of the range: 3.0 V6, 5-speed automatic, xenon, privacy glass, every option.",
+  "Config Type": "Factory",
+  "Value": 34500,
+  "Body Style": "Liftback",
+  "Drivetrain": "FWD",
+  "Fuel Type": "Gasoline",
+  "Induction Type": "NA",
+  "Transmission": "Automatic",
+  "Power": 206,
+  "Torque": 285,
+  "Weight": 1305,
+  "Years": {
+    "min": 2001,
+    "max": 2005
+  },
+  "defaultPaintName1": "Noir Nacre"
+}

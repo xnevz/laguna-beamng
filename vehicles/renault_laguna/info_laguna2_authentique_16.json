@@ -1,0 +1,19 @@
+{
+  "Configuration": "Authentique 1.6 16V",
+  "Description": "Entry model: 1.6 petrol, 5-speed, steel wheels, no fog lights.",
+  "Config Type": "Factory",
+  "Value": 17500,
+  "Body Style": "Liftback",
+  "Drivetrain": "FWD",
+  "Fuel Type": "Gasoline",
+  "Induction Type": "NA",
+  "Transmission": "Manual",
+  "Power": 111,
+  "Torque": 151,
+  "Weight": 1305,
+  "Years": {
+    "min": 2001,
+    "max": 2005
+  },
+  "defaultPaintName1": "Blanc Glacier"
+}

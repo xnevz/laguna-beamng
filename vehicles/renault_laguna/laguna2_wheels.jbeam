@@ -1,0 +1,624 @@
+{
+  "laguna2_wheels_alloy17": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "17\" Ten-Spoke Alloys, 225/45 R17",
+      "value": 900
+    },
+    "slotType": "laguna2_wheels",
+    "pressureWheels": [
+      [
+        "name",
+        "hubGroup",
+        "group",
+        "node1:",
+        "node2:",
+        "nodeS",
+        "nodeArm:",
+        "wheelDir"
+      ],
+      {
+        "radius": 0.317
+      },
+      {
+        "tireWidth": 0.225
+      },
+      {
+        "hubRadius": 0.22
+      },
+      {
+        "hubWidth": 0.19125
+      },
+      {
+        "nodeWeight": 0.3
+      },
+      {
+        "hubNodeWeight": 1.1
+      },
+      {
+        "hasTire": true
+      },
+      {
+        "enableTireReinfBeams": true
+      },
+      {
+        "enableTireLbeams": true
+      },
+      {
+        "enableTireSideReinfBeams": true
+      },
+      {
+        "enableTreadReinfBeams": true
+      },
+      {
+        "enableTirePeripheryReinfBeams": true
+      },
+      {
+        "numRays": 16
+      },
+      {
+        "nodeMaterial": "|NM_RUBBER"
+      },
+      {
+        "hubNodeMaterial": "|NM_METAL"
+      },
+      {
+        "frictionCoef": 1.0
+      },
+      {
+        "slidingFrictionCoef": 0.72
+      },
+      {
+        "noLoadCoef": 1.55
+      },
+      {
+        "fullLoadCoef": 0.5
+      },
+      {
+        "loadSensitivitySlope": 0.00018
+      },
+      {
+        "softnessCoef": 0.6
+      },
+      {
+        "treadCoef": 1.0
+      },
+      {
+        "pressurePSI": 32
+      },
+      {
+        "maxPressure": 60
+      },
+      {
+        "wheelSideBeamSpring": 60000
+      },
+      {
+        "wheelSideBeamDamp": 20
+      },
+      {
+        "wheelTreadBeamSpring": 450000
+      },
+      {
+        "wheelTreadBeamDamp": 20
+      },
+      {
+        "wheelPeripheryBeamSpring": 1200000
+      },
+      {
+        "wheelPeripheryBeamDamp": 30
+      },
+      {
+        "wheelReinfBeamSpring": 1200
+      },
+      {
+        "wheelReinfBeamDamp": 15
+      },
+      {
+        "wheelSideReinfBeamSpring": 6000
+      },
+      {
+        "wheelSideReinfBeamDamp": 8
+      },
+      {
+        "wheelTreadReinfBeamSpring": 6000
+      },
+      {
+        "wheelTreadReinfBeamDamp": 8
+      },
+      {
+        "wheelPeripheryReinfBeamSpring": 30000
+      },
+      {
+        "wheelPeripheryReinfBeamDamp": 20
+      },
+      {
+        "wheelHubBeamSpring": 12000000
+      },
+      {
+        "wheelHubBeamDamp": 200
+      },
+      {
+        "wheelHubBeamDeform": "FLT_MAX"
+      },
+      {
+        "wheelHubBeamStrength": "FLT_MAX"
+      },
+      {
+        "dragCoef": 5
+      },
+      {
+        "speedo": true
+      },
+      {
+        "brakeTorque": "$brake_F"
+      },
+      {
+        "parkingTorque": 0
+      },
+      [
+        "FL",
+        "wheelhub_FL",
+        "wheel_FL",
+        "fw1l",
+        "fw2l",
+        9999,
+        "fh2l",
+        -1
+      ],
+      [
+        "FR",
+        "wheelhub_FR",
+        "wheel_FR",
+        "fw1r",
+        "fw2r",
+        9999,
+        "fh2r",
+        1
+      ],
+      {
+        "brakeTorque": "$brake_R"
+      },
+      {
+        "parkingTorque": "$parking_R"
+      },
+      [
+        "RL",
+        "wheelhub_RL",
+        "wheel_RL",
+        "rw1l",
+        "rw2l",
+        9999,
+        "rh2l",
+        -1
+      ],
+      [
+        "RR",
+        "wheelhub_RR",
+        "wheel_RR",
+        "rw1r",
+        "rw2r",
+        9999,
+        "rh2r",
+        1
+      ]
+    ],
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_wheel_alloy17",
+        [
+          "wheel_FL",
+          "wheelhub_FL"
+        ],
+        [],
+        {
+          "pos": {
+            "x": 0.757,
+            "y": -1.323,
+            "z": 0.317
+          },
+          "rot": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ],
+      [
+        "laguna2_wheel_alloy17",
+        [
+          "wheel_FR",
+          "wheelhub_FR"
+        ],
+        [],
+        {
+          "pos": {
+            "x": -0.757,
+            "y": -1.323,
+            "z": 0.317
+          },
+          "rot": {
+            "x": 0,
+            "y": 0,
+            "z": 180
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ],
+      [
+        "laguna2_wheel_alloy17",
+        [
+          "wheel_RL",
+          "wheelhub_RL"
+        ],
+        [],
+        {
+          "pos": {
+            "x": 0.745,
+            "y": 1.445,
+            "z": 0.317
+          },
+          "rot": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ],
+      [
+        "laguna2_wheel_alloy17",
+        [
+          "wheel_RR",
+          "wheelhub_RR"
+        ],
+        [],
+        {
+          "pos": {
+            "x": -0.745,
+            "y": 1.445,
+            "z": 0.317
+          },
+          "rot": {
+            "x": 0,
+            "y": 0,
+            "z": 180
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ]
+    ]
+  },
+  "laguna2_wheels_steel15": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "15\" Steel Wheels with Renault Hubcaps, 195/65 R15",
+      "value": 0
+    },
+    "slotType": "laguna2_wheels",
+    "pressureWheels": [
+      [
+        "name",
+        "hubGroup",
+        "group",
+        "node1:",
+        "node2:",
+        "nodeS",
+        "nodeArm:",
+        "wheelDir"
+      ],
+      {
+        "radius": 0.3175
+      },
+      {
+        "tireWidth": 0.195
+      },
+      {
+        "hubRadius": 0.19
+      },
+      {
+        "hubWidth": 0.16575
+      },
+      {
+        "nodeWeight": 0.26
+      },
+      {
+        "hubNodeWeight": 1.3
+      },
+      {
+        "hasTire": true
+      },
+      {
+        "enableTireReinfBeams": true
+      },
+      {
+        "enableTireLbeams": true
+      },
+      {
+        "enableTireSideReinfBeams": true
+      },
+      {
+        "enableTreadReinfBeams": true
+      },
+      {
+        "enableTirePeripheryReinfBeams": true
+      },
+      {
+        "numRays": 16
+      },
+      {
+        "nodeMaterial": "|NM_RUBBER"
+      },
+      {
+        "hubNodeMaterial": "|NM_METAL"
+      },
+      {
+        "frictionCoef": 1.0
+      },
+      {
+        "slidingFrictionCoef": 0.72
+      },
+      {
+        "noLoadCoef": 1.55
+      },
+      {
+        "fullLoadCoef": 0.5
+      },
+      {
+        "loadSensitivitySlope": 0.00018
+      },
+      {
+        "softnessCoef": 0.6
+      },
+      {
+        "treadCoef": 1.0
+      },
+      {
+        "pressurePSI": 32
+      },
+      {
+        "maxPressure": 60
+      },
+      {
+        "wheelSideBeamSpring": 60000
+      },
+      {
+        "wheelSideBeamDamp": 20
+      },
+      {
+        "wheelTreadBeamSpring": 450000
+      },
+      {
+        "wheelTreadBeamDamp": 20
+      },
+      {
+        "wheelPeripheryBeamSpring": 1200000
+      },
+      {
+        "wheelPeripheryBeamDamp": 30
+      },
+      {
+        "wheelReinfBeamSpring": 1200
+      },
+      {
+        "wheelReinfBeamDamp": 15
+      },
+      {
+        "wheelSideReinfBeamSpring": 6000
+      },
+      {
+        "wheelSideReinfBeamDamp": 8
+      },
+      {
+        "wheelTreadReinfBeamSpring": 6000
+      },
+      {
+        "wheelTreadReinfBeamDamp": 8
+      },
+      {
+        "wheelPeripheryReinfBeamSpring": 30000
+      },
+      {
+        "wheelPeripheryReinfBeamDamp": 20
+      },
+      {
+        "wheelHubBeamSpring": 12000000
+      },
+      {
+        "wheelHubBeamDamp": 200
+      },
+      {
+        "wheelHubBeamDeform": "FLT_MAX"
+      },
+      {
+        "wheelHubBeamStrength": "FLT_MAX"
+      },
+      {
+        "dragCoef": 5
+      },
+      {
+        "speedo": true
+      },
+      {
+        "brakeTorque": "$brake_F"
+      },
+      {
+        "parkingTorque": 0
+      },
+      [
+        "FL",
+        "wheelhub_FL",
+        "wheel_FL",
+        "fw1l",
+        "fw2l",
+        9999,
+        "fh2l",
+        -1
+      ],
+      [
+        "FR",
+        "wheelhub_FR",
+        "wheel_FR",
+        "fw1r",
+        "fw2r",
+        9999,
+        "fh2r",
+        1
+      ],
+      {
+        "brakeTorque": "$brake_R"
+      },
+      {
+        "parkingTorque": "$parking_R"
+      },
+      [
+        "RL",
+        "wheelhub_RL",
+        "wheel_RL",
+        "rw1l",
+        "rw2l",
+        9999,
+        "rh2l",
+        -1
+      ],
+      [
+        "RR",
+        "wheelhub_RR",
+        "wheel_RR",
+        "rw1r",
+        "rw2r",
+        9999,
+        "rh2r",
+        1
+      ]
+    ],
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_wheel_steel15",
+        [
+          "wheel_FL",
+          "wheelhub_FL"
+        ],
+        [],
+        {
+          "pos": {
+            "x": 0.757,
+            "y": -1.323,
+            "z": 0.317
+          },
+          "rot": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ],
+      [
+        "laguna2_wheel_steel15",
+        [
+          "wheel_FR",
+          "wheelhub_FR"
+        ],
+        [],
+        {
+          "pos": {
+            "x": -0.757,
+            "y": -1.323,
+            "z": 0.317
+          },
+          "rot": {
+            "x": 0,
+            "y": 0,
+            "z": 180
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ],
+      [
+        "laguna2_wheel_steel15",
+        [
+          "wheel_RL",
+          "wheelhub_RL"
+        ],
+        [],
+        {
+          "pos": {
+            "x": 0.745,
+            "y": 1.445,
+            "z": 0.317
+          },
+          "rot": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ],
+      [
+        "laguna2_wheel_steel15",
+        [
+          "wheel_RR",
+          "wheelhub_RR"
+        ],
+        [],
+        {
+          "pos": {
+            "x": -0.745,
+            "y": 1.445,
+            "z": 0.317
+          },
+          "rot": {
+            "x": 0,
+            "y": 0,
+            "z": 180
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ]
+    ]
+  }
+}

@@ -1,25 +1,43 @@
 {
   "renault_laguna": {
     "information": {
-      "authors": "Antigravity & Abdelkarim",
-      "name": "Renault Laguna (Base Chassis)"
+      "authors": "Abdelkarim & Claude",
+      "name": "Renault Laguna II (X74)",
+      "value": 0
     },
     "slotType": "main",
     "slots": [
-      ["type", "default", "description"],
-      ["laguna_generation", "laguna_gen2", "Generation & Body Style"],
-      ["laguna_engine", "laguna_engine_1.9dci", "Engine"],
-      ["laguna_transmission", "laguna_transmission_6M", "Transmission"],
-      ["laguna_suspension_F", "laguna_suspension_F", "Front Suspension"],
-      ["laguna_suspension_R", "laguna_suspension_R", "Rear Suspension"],
-      ["paint_design", "", "Paint Design"]
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_body",
+        "laguna2_body_liftback",
+        "Body Style"
+      ],
+      [
+        "paint_design",
+        "",
+        "Paint Design"
+      ]
     ],
-    "scalednodes": {
-      "nodeOffset": {"x": 0.0, "y": 0.0, "z": 0.0}
-    },
     "controller": [
-      ["fileName"],
-      ["vehicleController"]
-    ]
+      [
+        "fileName"
+      ],
+      [
+        "vehicleController",
+        {}
+      ]
+    ],
+    "scalenodes": {
+      "nodeOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
   }
 }

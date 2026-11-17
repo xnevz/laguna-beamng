@@ -1,21 +1,149 @@
 {
-  "Name": "Renault Laguna",
+  "Name": "Laguna II",
   "Brand": "Renault",
-  "Author": "Antigravity & Abdelkarim",
+  "Author": "Abdelkarim & Claude",
   "Type": "Car",
-  "Body Style": "Hatchback / Estate / Coupe",
+  "Body Style": "Liftback",
   "Country": "France",
+  "Derby Class": "Compact",
   "Years": {
-    "min": 1994,
-    "max": 2015
+    "min": 2001,
+    "max": 2007
   },
-  "default_model": "laguna_ii",
+  "default_pc": "laguna2_expression_19dci",
+  "default_color": "Gris Hologramme",
   "paints": {
-    "Hologramme Grey": "0.45 0.47 0.50 1.2 0.05 0.2",
-    "Gris Eclipse": "0.18 0.20 0.22 1.2 0.1 0.3",
-    "Bleu Iliade": "0.02 0.15 0.55 1.2 0.2 0.4",
-    "Rouge De Feu": "0.55 0.03 0.05 1.2 0.15 0.3",
-    "Noir Nacre": "0.03 0.03 0.03 1.2 0.05 0.5",
-    "Blanc Glacier": "0.90 0.90 0.90 1.0 0.0 0.1"
+    "Gris Hologramme": {
+      "baseColor": [
+        0.55,
+        0.57,
+        0.6,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    "Gris Eclipse": {
+      "baseColor": [
+        0.2,
+        0.21,
+        0.23,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    "Gris Platine": {
+      "baseColor": [
+        0.66,
+        0.67,
+        0.68,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    "Noir Nacre": {
+      "baseColor": [
+        0.025,
+        0.025,
+        0.03,
+        1.0
+      ],
+      "metallic": 0.4,
+      "roughness": 0.25,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    "Blanc Glacier": {
+      "baseColor": [
+        0.86,
+        0.87,
+        0.87,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4,
+      "clearcoat": 0.6,
+      "clearcoatRoughness": 0.05
+    },
+    "Rouge de Feu": {
+      "baseColor": [
+        0.5,
+        0.03,
+        0.04,
+        1.0
+      ],
+      "metallic": 0.5,
+      "roughness": 0.3,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    "Rouge Vif": {
+      "baseColor": [
+        0.62,
+        0.02,
+        0.02,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.38,
+      "clearcoat": 0.6,
+      "clearcoatRoughness": 0.05
+    },
+    "Bleu Iliade": {
+      "baseColor": [
+        0.03,
+        0.1,
+        0.36,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    "Bleu Nuit": {
+      "baseColor": [
+        0.03,
+        0.05,
+        0.14,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    "Vert Fougere": {
+      "baseColor": [
+        0.07,
+        0.17,
+        0.12,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    "Beige Champagne": {
+      "baseColor": [
+        0.62,
+        0.55,
+        0.42,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    }
   }
 }

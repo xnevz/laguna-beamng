@@ -1,0 +1,48 @@
+{
+  "format": 2,
+  "model": "renault_laguna",
+  "parts": {
+    "laguna2_body": "laguna2_body_liftback",
+    "laguna2_engine": "laguna2_engine_19dci",
+    "laguna2_transmission_F": "laguna2_transmission_6M_F"
+  },
+  "vars": {},
+  "paints": [
+    {
+      "baseColor": [
+        0.55,
+        0.57,
+        0.6,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    {
+      "baseColor": [
+        0.55,
+        0.57,
+        0.6,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    },
+    {
+      "baseColor": [
+        0.55,
+        0.57,
+        0.6,
+        1.0
+      ],
+      "metallic": 0.6,
+      "roughness": 0.32,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.05
+    }
+  ]
+}

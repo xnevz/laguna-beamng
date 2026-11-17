@@ -1,0 +1,19 @@
+{
+  "Configuration": "Dynamique 2.0 16V Turbo",
+  "Description": "The quick one: 2.0 turbo, 6-speed, sport suspension and larger brakes.",
+  "Config Type": "Factory",
+  "Value": 26000,
+  "Body Style": "Liftback",
+  "Drivetrain": "FWD",
+  "Fuel Type": "Gasoline",
+  "Induction Type": "Turbo",
+  "Transmission": "Manual",
+  "Power": 170,
+  "Torque": 270,
+  "Weight": 1305,
+  "Years": {
+    "min": 2001,
+    "max": 2005
+  },
+  "defaultPaintName1": "Rouge de Feu"
+}

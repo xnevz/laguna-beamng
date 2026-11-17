@@ -1,0 +1,1090 @@
+{
+  "laguna2_engine_16": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "1.6 16V (K4M), 111 hp",
+      "value": 0
+    },
+    "slotType": "laguna2_engine",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_transmission_A",
+        "laguna2_transmission_5M_A",
+        "Transmission"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$fuel",
+        "range",
+        "L",
+        "Chassis",
+        40,
+        0,
+        68,
+        "Starting Fuel",
+        "Litres in the 68 L tank"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "energyStorage": [
+      [
+        "type",
+        "name"
+      ],
+      [
+        "fuelTank",
+        "mainTank"
+      ]
+    ],
+    "mainTank": {
+      "energyType": "gasoline",
+      "fuelCapacity": 68,
+      "startingFuelCapacity": "$fuel"
+    },
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          105
+        ],
+        [
+          2000,
+          128
+        ],
+        [
+          3000,
+          140
+        ],
+        [
+          4200,
+          151
+        ],
+        [
+          5000,
+          147
+        ],
+        [
+          6000,
+          132
+        ],
+        [
+          6500,
+          116
+        ],
+        [
+          7000,
+          90
+        ]
+      ],
+      "idleRPM": 750,
+      "maxRPM": 6500,
+      "revLimiterRPM": 6500,
+      "hasRevLimiter": true,
+      "inertia": 0.11,
+      "friction": 11,
+      "dynamicFriction": 0.024,
+      "engineBrakeTorque": 38,
+      "burnEfficiency": 0.33,
+      "requiredEnergyType": "gasoline",
+      "energyStorage": "mainTank",
+      "torqueReactionNodes:": [
+        "e1l",
+        "e2l",
+        "e1r"
+      ],
+      "particulates": 0.02,
+      "starterTorque": 120
+    }
+  },
+  "laguna2_engine_18": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "1.8 16V (F4P), 120 hp",
+      "value": 600
+    },
+    "slotType": "laguna2_engine",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_transmission_B",
+        "laguna2_transmission_5M_B",
+        "Transmission"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$fuel",
+        "range",
+        "L",
+        "Chassis",
+        40,
+        0,
+        68,
+        "Starting Fuel",
+        "Litres in the 68 L tank"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "energyStorage": [
+      [
+        "type",
+        "name"
+      ],
+      [
+        "fuelTank",
+        "mainTank"
+      ]
+    ],
+    "mainTank": {
+      "energyType": "gasoline",
+      "fuelCapacity": 68,
+      "startingFuelCapacity": "$fuel"
+    },
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          118
+        ],
+        [
+          2000,
+          148
+        ],
+        [
+          3000,
+          165
+        ],
+        [
+          3750,
+          173
+        ],
+        [
+          5000,
+          165
+        ],
+        [
+          5750,
+          149
+        ],
+        [
+          6500,
+          120
+        ],
+        [
+          7000,
+          95
+        ]
+      ],
+      "idleRPM": 750,
+      "maxRPM": 6500,
+      "revLimiterRPM": 6500,
+      "hasRevLimiter": true,
+      "inertia": 0.12,
+      "friction": 12,
+      "dynamicFriction": 0.024,
+      "engineBrakeTorque": 38,
+      "burnEfficiency": 0.33,
+      "requiredEnergyType": "gasoline",
+      "energyStorage": "mainTank",
+      "torqueReactionNodes:": [
+        "e1l",
+        "e2l",
+        "e1r"
+      ],
+      "particulates": 0.02,
+      "starterTorque": 120
+    }
+  },
+  "laguna2_engine_20": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "2.0 16V (F4R), 135 hp",
+      "value": 1200
+    },
+    "slotType": "laguna2_engine",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_transmission_C",
+        "laguna2_transmission_5M_C",
+        "Transmission"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$fuel",
+        "range",
+        "L",
+        "Chassis",
+        40,
+        0,
+        68,
+        "Starting Fuel",
+        "Litres in the 68 L tank"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "energyStorage": [
+      [
+        "type",
+        "name"
+      ],
+      [
+        "fuelTank",
+        "mainTank"
+      ]
+    ],
+    "mainTank": {
+      "energyType": "gasoline",
+      "fuelCapacity": 68,
+      "startingFuelCapacity": "$fuel"
+    },
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          130
+        ],
+        [
+          2000,
+          165
+        ],
+        [
+          3000,
+          182
+        ],
+        [
+          3750,
+          191
+        ],
+        [
+          5000,
+          185
+        ],
+        [
+          5500,
+          175
+        ],
+        [
+          6000,
+          160
+        ],
+        [
+          6500,
+          140
+        ],
+        [
+          7000,
+          110
+        ]
+      ],
+      "idleRPM": 750,
+      "maxRPM": 6500,
+      "revLimiterRPM": 6500,
+      "hasRevLimiter": true,
+      "inertia": 0.13,
+      "friction": 13,
+      "dynamicFriction": 0.024,
+      "engineBrakeTorque": 38,
+      "burnEfficiency": 0.33,
+      "requiredEnergyType": "gasoline",
+      "energyStorage": "mainTank",
+      "torqueReactionNodes:": [
+        "e1l",
+        "e2l",
+        "e1r"
+      ],
+      "particulates": 0.02,
+      "starterTorque": 120
+    }
+  },
+  "laguna2_engine_20t": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "2.0 16V Turbo (F4Rt), 170 hp",
+      "value": 2800
+    },
+    "slotType": "laguna2_engine",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_transmission_D",
+        "laguna2_transmission_6M_D",
+        "Transmission"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$fuel",
+        "range",
+        "L",
+        "Chassis",
+        40,
+        0,
+        68,
+        "Starting Fuel",
+        "Litres in the 68 L tank"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "energyStorage": [
+      [
+        "type",
+        "name"
+      ],
+      [
+        "fuelTank",
+        "mainTank"
+      ]
+    ],
+    "mainTank": {
+      "energyType": "gasoline",
+      "fuelCapacity": 68,
+      "startingFuelCapacity": "$fuel"
+    },
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          150
+        ],
+        [
+          1500,
+          205
+        ],
+        [
+          2000,
+          250
+        ],
+        [
+          3250,
+          270
+        ],
+        [
+          4500,
+          262
+        ],
+        [
+          5000,
+          240
+        ],
+        [
+          5500,
+          220
+        ],
+        [
+          6000,
+          195
+        ],
+        [
+          6500,
+          160
+        ]
+      ],
+      "idleRPM": 800,
+      "maxRPM": 6300,
+      "revLimiterRPM": 6300,
+      "hasRevLimiter": true,
+      "inertia": 0.14,
+      "friction": 14,
+      "dynamicFriction": 0.024,
+      "engineBrakeTorque": 38,
+      "burnEfficiency": 0.33,
+      "requiredEnergyType": "gasoline",
+      "energyStorage": "mainTank",
+      "torqueReactionNodes:": [
+        "e1l",
+        "e2l",
+        "e1r"
+      ],
+      "particulates": 0.02,
+      "starterTorque": 120
+    }
+  },
+  "laguna2_engine_v6": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "3.0 V6 24V (L7X), 206 hp",
+      "value": 4200
+    },
+    "slotType": "laguna2_engine",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_transmission_E",
+        "laguna2_transmission_5A_E",
+        "Transmission"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$fuel",
+        "range",
+        "L",
+        "Chassis",
+        40,
+        0,
+        68,
+        "Starting Fuel",
+        "Litres in the 68 L tank"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "energyStorage": [
+      [
+        "type",
+        "name"
+      ],
+      [
+        "fuelTank",
+        "mainTank"
+      ]
+    ],
+    "mainTank": {
+      "energyType": "gasoline",
+      "fuelCapacity": 68,
+      "startingFuelCapacity": "$fuel"
+    },
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          200
+        ],
+        [
+          2000,
+          245
+        ],
+        [
+          3000,
+          270
+        ],
+        [
+          3750,
+          285
+        ],
+        [
+          5000,
+          275
+        ],
+        [
+          6000,
+          245
+        ],
+        [
+          6500,
+          215
+        ],
+        [
+          7000,
+          170
+        ]
+      ],
+      "idleRPM": 700,
+      "maxRPM": 6500,
+      "revLimiterRPM": 6500,
+      "hasRevLimiter": true,
+      "inertia": 0.18,
+      "friction": 15,
+      "dynamicFriction": 0.024,
+      "engineBrakeTorque": 38,
+      "burnEfficiency": 0.33,
+      "requiredEnergyType": "gasoline",
+      "energyStorage": "mainTank",
+      "torqueReactionNodes:": [
+        "e1l",
+        "e2l",
+        "e1r"
+      ],
+      "particulates": 0.02,
+      "starterTorque": 120
+    }
+  },
+  "laguna2_engine_19dci": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "1.9 dCi (F9Q), 121 hp",
+      "value": 1500
+    },
+    "slotType": "laguna2_engine",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_transmission_F",
+        "laguna2_transmission_6M_F",
+        "Transmission"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$fuel",
+        "range",
+        "L",
+        "Chassis",
+        40,
+        0,
+        68,
+        "Starting Fuel",
+        "Litres in the 68 L tank"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "energyStorage": [
+      [
+        "type",
+        "name"
+      ],
+      [
+        "fuelTank",
+        "mainTank"
+      ]
+    ],
+    "mainTank": {
+      "energyType": "diesel",
+      "fuelCapacity": 68,
+      "startingFuelCapacity": "$fuel"
+    },
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          170
+        ],
+        [
+          1500,
+          240
+        ],
+        [
+          2000,
+          300
+        ],
+        [
+          2500,
+          295
+        ],
+        [
+          3000,
+          275
+        ],
+        [
+          4000,
+          215
+        ],
+        [
+          4500,
+          170
+        ],
+        [
+          5000,
+          100
+        ]
+      ],
+      "idleRPM": 800,
+      "maxRPM": 4600,
+      "revLimiterRPM": 4600,
+      "hasRevLimiter": true,
+      "inertia": 0.17,
+      "friction": 16,
+      "dynamicFriction": 0.028,
+      "engineBrakeTorque": 45,
+      "burnEfficiency": 0.4,
+      "requiredEnergyType": "diesel",
+      "energyStorage": "mainTank",
+      "torqueReactionNodes:": [
+        "e1l",
+        "e2l",
+        "e1r"
+      ],
+      "particulates": 0.08,
+      "starterTorque": 120
+    }
+  },
+  "laguna2_engine_22dci": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "2.2 dCi (G9T), 146 hp",
+      "value": 2400
+    },
+    "slotType": "laguna2_engine",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_transmission_D",
+        "laguna2_transmission_6M_D",
+        "Transmission"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$fuel",
+        "range",
+        "L",
+        "Chassis",
+        40,
+        0,
+        68,
+        "Starting Fuel",
+        "Litres in the 68 L tank"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "energyStorage": [
+      [
+        "type",
+        "name"
+      ],
+      [
+        "fuelTank",
+        "mainTank"
+      ]
+    ],
+    "mainTank": {
+      "energyType": "diesel",
+      "fuelCapacity": 68,
+      "startingFuelCapacity": "$fuel"
+    },
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          190
+        ],
+        [
+          1500,
+          280
+        ],
+        [
+          1750,
+          320
+        ],
+        [
+          2500,
+          320
+        ],
+        [
+          3000,
+          305
+        ],
+        [
+          4000,
+          260
+        ],
+        [
+          4500,
+          200
+        ],
+        [
+          5000,
+          120
+        ]
+      ],
+      "idleRPM": 800,
+      "maxRPM": 4500,
+      "revLimiterRPM": 4500,
+      "hasRevLimiter": true,
+      "inertia": 0.19,
+      "friction": 17,
+      "dynamicFriction": 0.028,
+      "engineBrakeTorque": 45,
+      "burnEfficiency": 0.4,
+      "requiredEnergyType": "diesel",
+      "energyStorage": "mainTank",
+      "torqueReactionNodes:": [
+        "e1l",
+        "e2l",
+        "e1r"
+      ],
+      "particulates": 0.08,
+      "starterTorque": 120
+    }
+  },
+  "laguna2_engine_20dci": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "2.0 dCi (M9R), 154 hp",
+      "value": 3000
+    },
+    "slotType": "laguna2_engine",
+    "slots": [
+      [
+        "type",
+        "default",
+        "description"
+      ],
+      [
+        "laguna2_transmission_D",
+        "laguna2_transmission_6M_D",
+        "Transmission"
+      ]
+    ],
+    "variables": [
+      [
+        "name",
+        "type",
+        "unit",
+        "category",
+        "default",
+        "min",
+        "max",
+        "title",
+        "description"
+      ],
+      [
+        "$fuel",
+        "range",
+        "L",
+        "Chassis",
+        40,
+        0,
+        68,
+        "Starting Fuel",
+        "Litres in the 68 L tank"
+      ]
+    ],
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "energyStorage": [
+      [
+        "type",
+        "name"
+      ],
+      [
+        "fuelTank",
+        "mainTank"
+      ]
+    ],
+    "mainTank": {
+      "energyType": "diesel",
+      "fuelCapacity": 68,
+      "startingFuelCapacity": "$fuel"
+    },
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          200
+        ],
+        [
+          1500,
+          290
+        ],
+        [
+          2000,
+          340
+        ],
+        [
+          2750,
+          340
+        ],
+        [
+          3250,
+          320
+        ],
+        [
+          4000,
+          275
+        ],
+        [
+          4500,
+          220
+        ],
+        [
+          5000,
+          140
+        ]
+      ],
+      "idleRPM": 800,
+      "maxRPM": 4700,
+      "revLimiterRPM": 4700,
+      "hasRevLimiter": true,
+      "inertia": 0.18,
+      "friction": 16,
+      "dynamicFriction": 0.028,
+      "engineBrakeTorque": 45,
+      "burnEfficiency": 0.4,
+      "requiredEnergyType": "diesel",
+      "energyStorage": "mainTank",
+      "torqueReactionNodes:": [
+        "e1l",
+        "e2l",
+        "e1r"
+      ],
+      "particulates": 0.08,
+      "starterTorque": 120
+    }
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "laguna2_headlights_halogen": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Headlights: Halogen (factory)",
+      "value": 0
+    },
+    "slotType": "laguna2_headlights",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_headlights",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ],
+    "glowMap": {
+      "laguna2_hl_high": {
+        "simpleFunction": {
+          "highbeam": 1.0
+        },
+        "off": "laguna2_hl_high",
+        "on": "laguna2_hl_high_on",
+        "on_intense": "laguna2_hl_high_on_intense"
+      },
+      "laguna2_hl_low": {
+        "simpleFunction": {
+          "lowbeam": 1.0,
+          "highbeam": 1.0
+        },
+        "off": "laguna2_hl_low",
+        "on": "laguna2_hl_low_on",
+        "on_intense": "laguna2_hl_low_on_intense"
+      },
+      "laguna2_hl_low_lens": {
+        "simpleFunction": {
+          "lowbeam": 1.0,
+          "highbeam": 1.0
+        },
+        "off": "laguna2_hl_low_lens",
+        "on": "laguna2_hl_low_lens_on",
+        "on_intense": "laguna2_hl_low_lens_on_intense"
+      },
+      "laguna2_hl_position": {
+        "simpleFunction": {
+          "lowbeam": 1.0,
+          "highbeam": 1.0
+        },
+        "off": "laguna2_hl_position",
+        "on": "laguna2_hl_position_on",
+        "on_intense": "laguna2_hl_position_on_intense"
+      },
+      "laguna2_hl_signal_L": {
+        "simpleFunction": "signal_L",
+        "off": "laguna2_hl_signal_L",
+        "on": "laguna2_hl_signal_L_on",
+        "on_intense": "laguna2_hl_signal_L_on_intense"
+      },
+      "laguna2_hl_signal_R": {
+        "simpleFunction": "signal_R",
+        "off": "laguna2_hl_signal_R",
+        "on": "laguna2_hl_signal_R_on",
+        "on_intense": "laguna2_hl_signal_R_on_intense"
+      }
+    }
+  },
+  "laguna2_headlights_xenon": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Headlights: Xenon (high trims)",
+      "value": 700
+    },
+    "slotType": "laguna2_headlights",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_headlights",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ],
+    "glowMap": {
+      "laguna2_hl_high": {
+        "simpleFunction": {
+          "highbeam": 1.0
+        },
+        "off": "laguna2_hl_high",
+        "on": "laguna2_hl_high_on",
+        "on_intense": "laguna2_hl_high_on_intense"
+      },
+      "laguna2_hl_low": {
+        "simpleFunction": {
+          "lowbeam": 1.0,
+          "highbeam": 1.0
+        },
+        "off": "laguna2_hl_low",
+        "on": "laguna2_hl_low_on_xenon",
+        "on_intense": "laguna2_hl_low_on_intense_xenon"
+      },
+      "laguna2_hl_low_lens": {
+        "simpleFunction": {
+          "lowbeam": 1.0,
+          "highbeam": 1.0
+        },
+        "off": "laguna2_hl_low_lens",
+        "on": "laguna2_hl_low_lens_on_xenon",
+        "on_intense": "laguna2_hl_low_lens_on_intense_xenon"
+      },
+      "laguna2_hl_position": {
+        "simpleFunction": {
+          "lowbeam": 1.0,
+          "highbeam": 1.0
+        },
+        "off": "laguna2_hl_position",
+        "on": "laguna2_hl_position_on",
+        "on_intense": "laguna2_hl_position_on_intense"
+      },
+      "laguna2_hl_signal_L": {
+        "simpleFunction": "signal_L",
+        "off": "laguna2_hl_signal_L",
+        "on": "laguna2_hl_signal_L_on",
+        "on_intense": "laguna2_hl_signal_L_on_intense"
+      },
+      "laguna2_hl_signal_R": {
+        "simpleFunction": "signal_R",
+        "off": "laguna2_hl_signal_R",
+        "on": "laguna2_hl_signal_R_on",
+        "on_intense": "laguna2_hl_signal_R_on_intense"
+      }
+    }
+  },
+  "laguna2_taillights_factory": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Tail Lights: Factory",
+      "value": 0
+    },
+    "slotType": "laguna2_taillights",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_taillights",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ],
+    "glowMap": {
+      "laguna2_reverse": {
+        "simpleFunction": "reverse",
+        "off": "laguna2_reverse",
+        "on": "laguna2_reverse_on",
+        "on_intense": "laguna2_reverse_on_intense"
+      },
+      "laguna2_tail_eye_red": {
+        "simpleFunction": {
+          "lowbeam": 0.49,
+          "highbeam": 0.49,
+          "brakelights": 0.5
+        },
+        "off": "laguna2_tail_eye_red",
+        "on": "laguna2_tail_eye_red_on",
+        "on_intense": "laguna2_tail_eye_red_on_intense"
+      },
+      "laguna2_tail_fog": {
+        "simpleFunction": {
+          "fog": 1.0
+        },
+        "off": "laguna2_tail_fog",
+        "on": "laguna2_tail_fog_on",
+        "on_intense": "laguna2_tail_fog_on_intense"
+      },
+      "laguna2_tail_lens_red": {
+        "simpleFunction": {
+          "lowbeam": 0.49,
+          "highbeam": 0.49,
+          "brakelights": 0.5
+        },
+        "off": "laguna2_tail_lens_red",
+        "on": "laguna2_tail_lens_red_on",
+        "on_intense": "laguna2_tail_lens_red_on_intense"
+      },
+      "laguna2_tail_reflector": {
+        "simpleFunction": {
+          "lowbeam": 0.49,
+          "highbeam": 0.49,
+          "brakelights": 0.5
+        },
+        "off": "laguna2_tail_reflector",
+        "on": "laguna2_tail_reflector_on",
+        "on_intense": "laguna2_tail_reflector_on_intense"
+      },
+      "laguna2_tail_signal_L": {
+        "simpleFunction": "signal_L",
+        "off": "laguna2_tail_signal_L",
+        "on": "laguna2_tail_signal_L_on",
+        "on_intense": "laguna2_tail_signal_L_on_intense"
+      },
+      "laguna2_tail_signal_R": {
+        "simpleFunction": "signal_R",
+        "off": "laguna2_tail_signal_R",
+        "on": "laguna2_tail_signal_R_on",
+        "on_intense": "laguna2_tail_signal_R_on_intense"
+      }
+    }
+  },
+  "laguna2_taillights_smoked": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Tail Lights: Smoked (aftermarket)",
+      "value": 180
+    },
+    "slotType": "laguna2_taillights",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_taillights_smoked",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ],
+    "glowMap": {
+      "laguna2_reverse": {
+        "simpleFunction": "reverse",
+        "off": "laguna2_reverse",
+        "on": "laguna2_reverse_on",
+        "on_intense": "laguna2_reverse_on_intense"
+      },
+      "laguna2_tail_eye_red": {
+        "simpleFunction": {
+          "lowbeam": 0.49,
+          "highbeam": 0.49,
+          "brakelights": 0.5
+        },
+        "off": "laguna2_tail_eye_red",
+        "on": "laguna2_tail_eye_red_on",
+        "on_intense": "laguna2_tail_eye_red_on_intense"
+      },
+      "laguna2_tail_fog": {
+        "simpleFunction": {
+          "fog": 1.0
+        },
+        "off": "laguna2_tail_fog",
+        "on": "laguna2_tail_fog_on",
+        "on_intense": "laguna2_tail_fog_on_intense"
+      },
+      "laguna2_tail_lens_smoked": {
+        "simpleFunction": {
+          "lowbeam": 0.49,
+          "highbeam": 0.49,
+          "brakelights": 0.5
+        },
+        "off": "laguna2_tail_lens_smoked",
+        "on": "laguna2_tail_lens_smoked_on",
+        "on_intense": "laguna2_tail_lens_smoked_on_intense"
+      },
+      "laguna2_tail_reflector": {
+        "simpleFunction": {
+          "lowbeam": 0.49,
+          "highbeam": 0.49,
+          "brakelights": 0.5
+        },
+        "off": "laguna2_tail_reflector",
+        "on": "laguna2_tail_reflector_on",
+        "on_intense": "laguna2_tail_reflector_on_intense"
+      },
+      "laguna2_tail_signal_L": {
+        "simpleFunction": "signal_L",
+        "off": "laguna2_tail_signal_L",
+        "on": "laguna2_tail_signal_L_on",
+        "on_intense": "laguna2_tail_signal_L_on_intense"
+      },
+      "laguna2_tail_signal_R": {
+        "simpleFunction": "signal_R",
+        "off": "laguna2_tail_signal_R",
+        "on": "laguna2_tail_signal_R_on",
+        "on_intense": "laguna2_tail_signal_R_on_intense"
+      }
+    }
+  },
+  "laguna2_foglights_round": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Front Fog Lights: Round (bumper)",
+      "value": 150
+    },
+    "slotType": "laguna2_foglights",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_foglights",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ],
+    "glowMap": {
+      "laguna2_fog": {
+        "simpleFunction": {
+          "fog": 1.0
+        },
+        "off": "laguna2_fog",
+        "on": "laguna2_fog_on",
+        "on_intense": "laguna2_fog_on_intense"
+      }
+    }
+  },
+  "laguna2_glass_factory": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Glass: Factory light tint",
+      "value": 0
+    },
+    "slotType": "laguna2_glass",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_glass_factory",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_glass_privacy": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Glass: Privacy (darker rear)",
+      "value": 250
+    },
+    "slotType": "laguna2_glass",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_glass_privacy",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_glass_dark": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Glass: Dark film (aftermarket)",
+      "value": 120
+    },
+    "slotType": "laguna2_glass",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_glass_dark",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_mirrors_body": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Side Mirrors: Body-coloured caps",
+      "value": 0
+    },
+    "slotType": "laguna2_mirrors",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_mirrors",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_rearwiper": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Rear Wiper",
+      "value": 0
+    },
+    "slotType": "laguna2_rearwiper",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_rearwiper",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_mouldings_black": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Side Mouldings: Black",
+      "value": 0
+    },
+    "slotType": "laguna2_mouldings",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_mouldings_black",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_mouldings_body": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Side Mouldings: Body-coloured",
+      "value": 90
+    },
+    "slotType": "laguna2_mouldings",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_mouldings_body",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_parksensors": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Rear Parking Sensors",
+      "value": 300
+    },
+    "slotType": "laguna2_parksensors",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_parksensors",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_plate_F_eu": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Front Plate: EU (France)",
+      "value": 0
+    },
+    "slotType": "laguna2_plate_F",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_plate_F",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_plate_R_eu": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "Rear Plate: EU (France)",
+      "value": 0
+    },
+    "slotType": "laguna2_plate_R",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_plate_R",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  },
+  "laguna2_badges_laguna": {
+    "information": {
+      "authors": "Abdelkarim & Claude",
+      "name": "\"LAGUNA\" Script",
+      "value": 0
+    },
+    "slotType": "laguna2_badges",
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "laguna2_lettering",
+        [
+          "laguna2_body"
+        ]
+      ]
+    ]
+  }
+}
